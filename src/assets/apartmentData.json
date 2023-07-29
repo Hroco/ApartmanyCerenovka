@@ -1,0 +1,25 @@
+{
+    "apartments": {
+      "green": {
+        "price": "60€",
+        "size": "50 sqm"
+      },
+      "red": {
+        "price": "70€",
+        "size": "60 sqm"
+      },
+      "blue": {
+        "price": "50€",
+        "size": "45 sqm"
+      },
+      "yellow": {
+        "price": "100€",
+        "size": "55 sqm"
+      },
+      "greenBig": {
+        "price": "90€",
+        "size": "70 sqm"
+      }
+    }
+  }
+  
