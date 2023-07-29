@@ -5,8 +5,11 @@ import ContactFooter from "./ContactFooter";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import TopBanner from "./TopBanner";
+import { useRouter } from "next/router";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
+  const router = useRouter();
+  console.log(router.pathname);
   return (
     <>
       <Head>
