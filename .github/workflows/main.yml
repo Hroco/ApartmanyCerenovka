@@ -27,7 +27,7 @@ jobs:
         gcloud --quiet auth configure-docker
     - name: Build image
       run: |-
-        docker build. --tag "gcr.io/$GCP_PROJECT_ID/$REPOSITORY: $GITHUB_SHA" 
+        docker build . --tag "gcr.io/$GCP_PROJECT_ID/$REPOSITORY: $GITHUB_SHA" 
     - name: Push image to GCP container registry
       run: |-
         docker push gcr.io/$GCP_PROJECT_ID/$REPOSITORY: $GITHUB_SHA
