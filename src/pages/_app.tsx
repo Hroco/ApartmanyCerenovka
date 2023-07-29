@@ -5,10 +5,8 @@ import ContactFooter from "./ContactFooter";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import TopBanner from "./TopBanner";
-import useTranslation from "~/hooks/useTranslation";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
-  const { setLanguage, getTranslatedText } = useTranslation();
   return (
     <>
       <Head>

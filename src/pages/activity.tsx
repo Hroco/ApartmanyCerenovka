@@ -35,7 +35,9 @@ export default function Activity() {
         const data = await response.json();
         console.log("data", data);
         setImageFilenames1(
-          data.map((imageName) => "/activityGallery/gallery1/" + imageName)
+          data.map(
+            (imageName: string) => "/activityGallery/gallery1/" + imageName
+          )
         );
       } catch (error) {
         console.error(error);
@@ -53,7 +55,9 @@ export default function Activity() {
         const data = await response.json();
         console.log("data", data);
         setImageFilenames2(
-          data.map((imageName) => "/activityGallery/gallery2/" + imageName)
+          data.map(
+            (imageName: string) => "/activityGallery/gallery2/" + imageName
+          )
         );
       } catch (error) {
         console.error(error);
@@ -71,7 +75,9 @@ export default function Activity() {
         const data = await response.json();
         console.log("data", data);
         setImageFilenames3(
-          data.map((imageName) => "/activityGallery/gallery3/" + imageName)
+          data.map(
+            (imageName: string) => "/activityGallery/gallery3/" + imageName
+          )
         );
       } catch (error) {
         console.error(error);
@@ -99,10 +105,7 @@ export default function Activity() {
               veľký televízor a dostatok miesta na posedenie pre 15 ľudí.
             </p>
             <hr></hr>
-            <ImageGallery
-              imagePath="/activityGallery/gallery1/"
-              imageList={imageFilenames1}
-            />
+            <ImageGallery imageList={imageFilenames1} />
             <hr></hr>
             <p className="p-subsite">
               Pre tých, ktorí sa radi pohybujú, máme množstvo aktivít vonku. Na
@@ -112,10 +115,7 @@ export default function Activity() {
               rôzne hry, ako napríklad futbalový tenis, kroket alebo badminton.
             </p>
             <hr></hr>
-            <ImageGallery
-              imagePath="/activityGallery/gallery2/"
-              imageList={imageFilenames2}
-            />
+            <ImageGallery imageList={imageFilenames2} />
             <hr></hr>
             <p className="p-subsite">
               Okrem týchto aktivít ponúkame aj možnosť turistiky na nedaleký
@@ -126,10 +126,7 @@ export default function Activity() {
               prírode.
             </p>
             <hr></hr>
-            <ImageGallery
-              imagePath="/activityGallery/gallery3/"
-              imageList={imageFilenames3}
-            />
+            <ImageGallery imageList={imageFilenames3} />
             <hr></hr>
             <p className="p-subsite">
               Takže, či už si prajete oddýchnuť si pri grilovaní a sledovaní

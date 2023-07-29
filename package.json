@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 8080",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,6 +16,7 @@
     "react-dom": "18.2.0",
     "react-simple-image-viewer": "^1.2.2",
     "react-slick": "^0.29.0",
+    "sharp": "^0.32.4",
     "slick-carousel": "^1.8.1",
     "svg-react-loader": "^0.4.6",
     "zod": "^3.21.4"
