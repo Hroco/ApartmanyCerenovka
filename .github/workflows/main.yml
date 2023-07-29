@@ -15,17 +15,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: 'Google auth'
-      uses: 'google-github-actions/auth@v1'
-      with:
-        workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
-        service_account: ${{ secrets.WIF_SERVICE_ACCOUNT }} 
     - name: 'Set up Cloud SDK'
       uses: google-github-actions/setup-gcloud@v1
       with:
-        project_id: ${{ secrets. GCP_PROJECT_ID }}
-        service_account_key: ${{ secrets. GCP_SA_KEYBASE64 }} 
-        service_account_email: ${{ secrets. GCP_SA_EMAIL }}
+        project_id: ${{ secrets.GCP_PROJECT_ID }}
+        service_account_key: ${{ secrets.GCP_SA_KEYBASE64 }} 
+        service_account_email: ${{ secrets.GCP_SA_EMAIL }}
     - name: Enable all the apis required in GCP
       run: |-
         gcloud services enable container registry.googleapis.com
