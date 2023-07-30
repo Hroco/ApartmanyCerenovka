@@ -17,12 +17,12 @@ jobs:
       uses: actions/checkout@v2
     - name: 'Set up Cloud SDK'
       uses: google-github-actions/setup-gcloud@master
-        with:
-          version: "290.0.1"
-          project_id: ${{ secrets.GCP_PROJECT_ID }}
-          service_account_key: ${{ secrets.GCP_SA_KEYBASE64 }}
-          service_account_email: ${{ secrets.GCP_SA_EMAIL }}
-          export_default_credentials: true
+      with:
+        version: "290.0.1"
+        project_id: ${{ secrets.GCP_PROJECT_ID }}
+        service_account_key: ${{ secrets.GCP_SA_KEYBASE64 }}
+        service_account_email: ${{ secrets.GCP_SA_EMAIL }}
+        export_default_credentials: true
     - name: Enable all the apis required in GCP
       run: |-
         gcloud services enable container registry.googleapis.com
