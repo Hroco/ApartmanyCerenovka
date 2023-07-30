@@ -110,7 +110,7 @@ export default function Home() {
         <meta name="description" content={t.RootMetaDescription}></meta>
       </Head>
       <div className="main-panel">
-        <HomePageImage />q
+        <HomePageImage />
         <div className="main-panel-inside container">
           <h1>{t.HomePageHeading}</h1>
           <h2>{t.HomePageSubHeading}</h2>
@@ -124,7 +124,7 @@ export default function Home() {
               loading="lazy"
             />
             <div>
-              <p className="p-subsite">{t.HomePageLocationHeading}</p>
+              <h3 className="p-subsite">{t.HomePageLocationHeading}</h3>
               <p className="p-subsite">{t.HomePageLocationText}</p>
             </div>
           </section>
@@ -133,7 +133,7 @@ export default function Home() {
 
           <section className="main-panel-left">
             <div>
-              <p className="p-subsite">{t.HomePageOccupancyHeading}</p>
+              <h3 className="p-subsite">{t.HomePageOccupancyHeading}</h3>
               <p className="p-subsite">{t.HomePageOccupancyText}</p>
             </div>
             <Image
@@ -156,7 +156,7 @@ export default function Home() {
               loading="lazy"
             />
             <div>
-              <p className="p-subsite">{t.HomePageOrganisationHeading}</p>
+              <h3 className="p-subsite">{t.HomePageOrganisationHeading}</h3>
               <p className="p-subsite">{t.HomePageOrganisationText}</p>
             </div>
           </section>

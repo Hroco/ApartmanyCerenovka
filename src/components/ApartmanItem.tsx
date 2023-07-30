@@ -78,39 +78,14 @@ export default function ApartmentItem({
             <Image
               src={imgPath}
               alt={alt}
-              width={200}
-              height={200}
+              width={300}
+              height={280}
               loading="lazy"
             />
-            <h3>{description}</h3>
+            <h3>{description} (4+2)</h3>
             <br />
           </div>
           <div className="apartman-bottom">
-            <div>
-              <p>
-                <b>{t.ApartmentItemBeds}:</b>
-              </p>
-              <p>{beds}</p>
-            </div>
-            <div>
-              <p>
-                <b>{t.ApartmentItemExtraBeds}:</b>
-              </p>
-              <p>{extraBeds}</p>
-            </div>
-            <div>
-              <p>
-                <b>{t.ApartmentItemWifi}:</b>
-              </p>
-              <p>{wifi ? t.ApartmentItemYes : t.ApartmentItemNo}</p>
-            </div>
-            <div>
-              <p>
-                <b>{t.ApartmentItemParking}:</b>
-              </p>
-              <p>{parking ? t.ApartmentItemYes : t.ApartmentItemNo}</p>
-            </div>
-
             <Link
               className={`apartman-button ${buttonClass}`}
               href={apartmentPath}

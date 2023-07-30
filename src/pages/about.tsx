@@ -36,18 +36,26 @@ export default function AboutPage() {
           </div>
           <h1 className="h-subsite">{t.AboutPageHeading}</h1>
           <br />
-          <h3 className="h-subsite">{t.AboutPageOurMissionHeading}</h3>
-          <p className="p-subsite">{t.AboutPageOurMissionText}</p>
-          <hr></hr>
-          <h3 className="h-subsite">{t.AboutPageAboutUsHeading}</h3>
-          <p className="p-subsite">{t.AboutPageAboutUsText}</p>
-          <hr></hr>
-          <h3 className="h-subsite">{t.AboutPageourApartmentsHeading}</h3>
-          <p className="p-subsite">{t.AboutPageourApartmentsText}</p>
-          <hr></hr>
-          <h3 className="h-subsite">{t.AboutPageOurVisionHeading}</h3>
-          <p className="p-subsite">{t.AboutPageOurVisionText1}</p>
-          <p className="p-subsite">{t.AboutPageOurVisionText2}</p>
+          <section className="main-panel-down">
+            <h3 className="p-subsite">{t.AboutPageOurMissionHeading}</h3>
+            <p className="p-subsite">{t.AboutPageOurMissionText}</p>
+          </section>
+          <p>&nbsp;</p>
+          <section className="main-panel-down">
+            <h3 className="p-subsite">{t.AboutPageAboutUsHeading}</h3>
+            <p className="p-subsite">{t.AboutPageAboutUsText}</p>
+          </section>
+          <p>&nbsp;</p>
+          <section className="main-panel-down">
+            <h3 className="p-subsite">{t.AboutPageourApartmentsHeading}</h3>
+            <p className="p-subsite">{t.AboutPageourApartmentsText}</p>
+          </section>
+          <p>&nbsp;</p>
+          <section className="main-panel-down">
+            <h3 className="p-subsite">{t.AboutPageOurVisionHeading}</h3>
+            <p className="p-subsite">{t.AboutPageOurVisionText1}</p>
+            <p className="p-subsite">{t.AboutPageOurVisionText2}</p>
+          </section>
         </div>
       </div>
     </>

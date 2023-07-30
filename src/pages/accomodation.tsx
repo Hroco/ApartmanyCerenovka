@@ -132,85 +132,83 @@ export default function Accomodation() {
       <div className="main-panel">
         <BannerImg text={t.AccomodationBanner} />
         <div className="main-panel-inside container">
-          <div className="logo-about">
-            <Image
-              src={LogoPath}
-              alt={t.WebsiteLogoAlt}
-              width={300}
-              height={300}
-              loading="lazy"
-            />
-          </div>
-          <p className="p-subsite">{t.AccomodationPageText1}</p>
-          <hr></hr>
-          <p className="p-subsite">{t.AccomodationPageText2}</p>
-          <hr></hr>
-          <p className="p-subsite">{t.AccomodationPageText3}</p>
-          <hr></hr>
-          <section className="slider-container">
-            <Slider {...settings}>
-              <ApartmanItem
-                heading={t.ApartmentBlueName}
-                description={t.ApartmentBlueDescription}
-                imgPath={imgBlue}
-                beds={2}
-                extraBeds={0}
-                wifi={true}
-                parking={true}
-                apartmentPath="/apartman/blue"
-                apartmentColor="blue"
-                alt={t.ApartmentBlueAlt}
-              />
-              <ApartmanItem
-                heading={t.ApartmentGreenName}
-                description={t.ApartmentGreenDescription}
-                imgPath={imgGreen}
-                beds={4}
-                extraBeds={2}
-                wifi={true}
-                parking={true}
-                apartmentPath="/apartman/green"
-                apartmentColor="green"
-                alt={t.ApartmentGreenAlt}
-              />
-              <ApartmanItem
-                heading={t.ApartmentRedName}
-                description={t.ApartmentRedDescription}
-                imgPath={imgRed}
-                beds={3}
-                extraBeds={0}
-                wifi={true}
-                parking={true}
-                apartmentPath="/apartman/red"
-                apartmentColor="red"
-                alt={t.ApartmentRedAlt}
-              />
-              <ApartmanItem
-                heading={t.ApartmentYellowName}
-                description={t.ApartmentYellowDescription}
-                imgPath={imgYellow}
-                beds={7}
-                extraBeds={2}
-                wifi={true}
-                parking={true}
-                apartmentPath="/apartman/yellow"
-                apartmentColor="yellow"
-                alt={t.ApartmentYellowAlt}
-              />
-              <ApartmanItem
-                heading={t.ApartmentGreenBigName}
-                description={t.ApartmentGreenBigDescription}
-                imgPath={imgGreenBig}
-                beds={4}
-                extraBeds={2}
-                wifi={true}
-                parking={true}
-                apartmentPath="/apartman/greenBig"
-                apartmentColor="green"
-                alt={t.ApartmentGreenBigAlt}
-              />
-            </Slider>
+          <section className="main-panel-down">
+            <p className="p-subsite">{t.AccomodationPageText1}</p>
           </section>
+          <p>&nbsp;</p>
+          <section className="apartment-container">
+            <p>&nbsp;</p>
+            <ApartmanItem
+              heading={t.ApartmentBlueName}
+              description={t.ApartmentBlueDescription}
+              imgPath={imgBlue}
+              beds={2}
+              extraBeds={0}
+              wifi={true}
+              parking={true}
+              apartmentPath="/apartman/blue"
+              apartmentColor="blue"
+              alt={t.ApartmentBlueAlt}
+            />
+            <ApartmanItem
+              heading={t.ApartmentGreenName}
+              description={t.ApartmentGreenDescription}
+              imgPath={imgGreen}
+              beds={4}
+              extraBeds={2}
+              wifi={true}
+              parking={true}
+              apartmentPath="/apartman/green"
+              apartmentColor="green"
+              alt={t.ApartmentGreenAlt}
+            />
+            <ApartmanItem
+              heading={t.ApartmentRedName}
+              description={t.ApartmentRedDescription}
+              imgPath={imgRed}
+              beds={3}
+              extraBeds={0}
+              wifi={true}
+              parking={true}
+              apartmentPath="/apartman/red"
+              apartmentColor="red"
+              alt={t.ApartmentRedAlt}
+            />
+            <ApartmanItem
+              heading={t.ApartmentYellowName}
+              description={t.ApartmentYellowDescription}
+              imgPath={imgYellow}
+              beds={7}
+              extraBeds={2}
+              wifi={true}
+              parking={true}
+              apartmentPath="/apartman/yellow"
+              apartmentColor="yellow"
+              alt={t.ApartmentYellowAlt}
+            />
+            <ApartmanItem
+              heading={t.ApartmentGreenBigName}
+              description={t.ApartmentGreenBigDescription}
+              imgPath={imgGreenBig}
+              beds={4}
+              extraBeds={2}
+              wifi={true}
+              parking={true}
+              apartmentPath="/apartman/greenBig"
+              apartmentColor="green"
+              alt={t.ApartmentGreenBigAlt}
+            />
+          </section>
+          <p>&nbsp;</p>
+
+          <section className="main-panel-down">
+            <p className="p-subsite">{t.AccomodationPageText2}</p>
+          </section>
+          <p>&nbsp;</p>
+          <section className="main-panel-down">
+            <p className="p-subsite">{t.AccomodationPageText3}</p>
+          </section>
+          <p>&nbsp;</p>
         </div>
       </div>
     </>
