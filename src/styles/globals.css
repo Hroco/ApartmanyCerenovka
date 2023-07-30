@@ -257,7 +257,7 @@ ul li a:hover{
 
 .mainImg img{
   width: 100%;
-  
+  height: auto;
 }
 
 .mainImg h1{
@@ -307,6 +307,7 @@ hr {
 
 .banner-main img{
   width: 100%;
+  height: auto;
 }
 
 .main-panel input {
@@ -315,7 +316,6 @@ hr {
   color: #828282;
   background-color: #f5f5f5;
   border-width: 0px;
-  outline: none;
   font-size: 1.6rem;
   border-radius: 0.5rem;
 }
@@ -326,7 +326,6 @@ hr {
   color: #828282;
   background-color: #f5f5f5;
   border-width: 0px;
-  outline: none;
   font-size: 1.6rem;
   border-radius: 0.5rem;
 }
@@ -348,7 +347,6 @@ hr {
   background-color: #f5f5f5;
   border-width: 0px;
   border-radius: 0.5rem;
-  outline: none;
   font-size: 1.6rem;
   width: 100px;
 }

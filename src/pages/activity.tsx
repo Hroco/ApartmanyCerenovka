@@ -14,6 +14,7 @@ import { useRouter } from "next/router";
 import en from "../locales/en";
 import sk from "../locales/sk";
 import pl from "../locales/pl";
+import Head from "next/head";
 
 export default function Activity() {
   const [imageFilenames1, setImageFilenames1] = useState<string[]>([]);
@@ -33,7 +34,7 @@ export default function Activity() {
           throw new Error("Failed to fetch image filenames");
         }
         const data = await response.json();
-        console.log("data", data);
+        // console.log("data", data);
         setImageFilenames1(
           data.map(
             (imageName: string) => "/activityGallery/gallery1/" + imageName
@@ -53,7 +54,7 @@ export default function Activity() {
           throw new Error("Failed to fetch image filenames");
         }
         const data = await response.json();
-        console.log("data", data);
+        // console.log("data", data);
         setImageFilenames2(
           data.map(
             (imageName: string) => "/activityGallery/gallery2/" + imageName
@@ -73,7 +74,7 @@ export default function Activity() {
           throw new Error("Failed to fetch image filenames");
         }
         const data = await response.json();
-        console.log("data", data);
+        // console.log("data", data);
         setImageFilenames3(
           data.map(
             (imageName: string) => "/activityGallery/gallery3/" + imageName
@@ -91,6 +92,9 @@ export default function Activity() {
 
   return (
     <>
+      <Head>
+        <title>{t.ActivitiesTitle}</title>
+      </Head>
       <div className="main-panel">
         <BannerImg text={t.ActivityPageBanner} />
         <div className="main-panel-inside container">

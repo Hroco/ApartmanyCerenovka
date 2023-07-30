@@ -19,6 +19,7 @@ interface ApartmentItemProps {
   parking: boolean;
   apartmentPath: string;
   apartmentColor: string;
+  alt: string;
 }
 
 export default function ApartmentItem({
@@ -31,6 +32,7 @@ export default function ApartmentItem({
   parking,
   apartmentPath,
   apartmentColor,
+  alt,
 }: ApartmentItemProps) {
   const router = useRouter();
   const { locale } = router;
@@ -75,7 +77,7 @@ export default function ApartmentItem({
             <h2>{heading}</h2>
             <Image
               src={imgPath}
-              alt=""
+              alt={alt}
               width={200}
               height={200}
               loading="lazy"

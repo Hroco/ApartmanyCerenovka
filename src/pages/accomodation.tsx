@@ -21,9 +21,13 @@ import { useRouter } from "next/router";
 import en from "../locales/en";
 import sk from "../locales/sk";
 import pl from "../locales/pl";
+import Head from "next/head";
 
 function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "sk" ? sk : locale === "en" ? en : pl;
   return (
     <div
       className={`${className} arrowStyleRight`}
@@ -34,7 +38,7 @@ function SampleNextArrow(props: any) {
         className="svg-small"
         priority
         src={NextSVG}
-        alt="Follow us on Twitter"
+        alt={t.SliderIconNextAlt}
       />
     </div>
   );
@@ -42,6 +46,9 @@ function SampleNextArrow(props: any) {
 
 function SamplePrevArrow(props: any) {
   const { className, style, onClick } = props;
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "sk" ? sk : locale === "en" ? en : pl;
   return (
     <div
       className={`${className} arrowStyleLeft`}
@@ -52,7 +59,7 @@ function SamplePrevArrow(props: any) {
         className="svg-small"
         priority
         src={PrevSVG}
-        alt="Follow us on Twitter"
+        alt={t.SliderIconPrevAlt}
       />
     </div>
   );
@@ -118,13 +125,16 @@ export default function Accomodation() {
   };
   return (
     <>
+      <Head>
+        <title>{t.AccomodationTitle}</title>
+      </Head>
       <div className="main-panel">
         <BannerImg text={t.AccomodationBanner} />
         <div className="main-panel-inside container">
           <div className="logo-about">
             <Image
               src={LogoPath}
-              alt=""
+              alt={t.WebsiteLogoAlt}
               width={300}
               height={300}
               loading="lazy"
@@ -136,7 +146,7 @@ export default function Accomodation() {
           <hr></hr>
           <p className="p-subsite">{t.AccomodationPageText3}</p>
           <hr></hr>
-          <div className="slider-container">
+          <section className="slider-container">
             <Slider {...settings}>
               <ApartmanItem
                 heading={t.ApartmentBlueName}
@@ -148,6 +158,7 @@ export default function Accomodation() {
                 parking={true}
                 apartmentPath="/apartman/blue"
                 apartmentColor="blue"
+                alt={t.ApartmentBlueAlt}
               />
               <ApartmanItem
                 heading={t.ApartmentGreenName}
@@ -159,6 +170,7 @@ export default function Accomodation() {
                 parking={true}
                 apartmentPath="/apartman/green"
                 apartmentColor="green"
+                alt={t.ApartmentGreenAlt}
               />
               <ApartmanItem
                 heading={t.ApartmentRedName}
@@ -170,6 +182,7 @@ export default function Accomodation() {
                 parking={true}
                 apartmentPath="/apartman/red"
                 apartmentColor="red"
+                alt={t.ApartmentRedAlt}
               />
               <ApartmanItem
                 heading={t.ApartmentYellowName}
@@ -181,6 +194,7 @@ export default function Accomodation() {
                 parking={true}
                 apartmentPath="/apartman/yellow"
                 apartmentColor="yellow"
+                alt={t.ApartmentYellowAlt}
               />
               <ApartmanItem
                 heading={t.ApartmentGreenBigName}
@@ -192,9 +206,10 @@ export default function Accomodation() {
                 parking={true}
                 apartmentPath="/apartman/greenBig"
                 apartmentColor="green"
+                alt={t.ApartmentGreenBigAlt}
               />
             </Slider>
-          </div>
+          </section>
         </div>
       </div>
     </>

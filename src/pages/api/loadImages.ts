@@ -21,6 +21,6 @@ export default async function handler(
   }
 
   const imageFilenames = loadImagesFromFolder(folderPath);
-  console.log("loadImages.ts", imageFilenames);
+  // console.log("loadImages.ts", imageFilenames);
   res.status(200).json(imageFilenames);
 }

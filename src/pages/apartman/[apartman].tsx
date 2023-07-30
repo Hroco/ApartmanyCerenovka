@@ -55,7 +55,7 @@ export default function ApartmentSite() {
           throw new Error("Failed to fetch image filenames");
         }
         const data = await response.json();
-        console.log("data", data);
+        // console.log("data", data);
         setImageFilenames1(
           data.map(
             (imageName: string) => getPath(apartman as string) + imageName
@@ -201,7 +201,7 @@ export default function ApartmentSite() {
                   className="svg-big"
                   priority
                   src={Key}
-                  alt="Follow us on Twitter"
+                  alt={t.ApartmentItemKeyIconAlt}
                 />
                 <div className="infoContent">
                   <p>{t.ApartmentSiteCheckInOut}</p>
@@ -212,7 +212,7 @@ export default function ApartmentSite() {
                   className="svg-big"
                   priority
                   src={Pets}
-                  alt="Follow us on Twitter"
+                  alt={t.ApartmentItemPetIconAlt}
                 />
                 <div className="infoContent">
                   <p>{t.ApartmentSitePets}</p>
@@ -223,7 +223,7 @@ export default function ApartmentSite() {
                   className="svg-big"
                   priority
                   src={Smoke}
-                  alt="Follow us on Twitter"
+                  alt={t.ApartmentItemSmokeIconAlt}
                 />
                 <div className="infoContent">
                   <p>{t.ApartmentSiteSmoke}</p>

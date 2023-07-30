@@ -11,6 +11,7 @@ import en from "../locales/en";
 import sk from "../locales/sk";
 import pl from "../locales/pl";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function Gallery() {
   const [imageFilenames1, setImageFilenames1] = useState<string[]>([]);
@@ -28,7 +29,7 @@ export default function Gallery() {
           throw new Error("Failed to fetch image filenames");
         }
         const data = await response.json();
-        console.log("data", data);
+        // console.log("data", data);
         setImageFilenames1(
           data.map((imageName: string) => "/gallery/" + imageName)
         );
@@ -42,6 +43,9 @@ export default function Gallery() {
 
   return (
     <>
+      <Head>
+        <title>{t.GalleryTitle}</title>
+      </Head>
       <div className="main-panel">
         <BannerImg text={t.GalleryBanner} />
         <div className="main-panel-inside container">

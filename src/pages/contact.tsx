@@ -9,6 +9,7 @@ import en from "../locales/en";
 import sk from "../locales/sk";
 import pl from "../locales/pl";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function Contact() {
   const router = useRouter();
@@ -58,6 +59,9 @@ export default function Contact() {
   };
   return (
     <>
+      <Head>
+        <title>{t.ContactTitle}</title>
+      </Head>
       <div className="main-panel">
         <BannerImg text={t.ContactBanner} />
         <div className="main-panel-inside container">

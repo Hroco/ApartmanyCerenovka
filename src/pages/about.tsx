@@ -4,6 +4,7 @@ import React from "react";
 import BannerImg from "../components/BannerImg";
 import Image from "next/image";
 import LogoPath from "../assets/logo.png";
+import Head from "next/head";
 
 import en from "../locales/en";
 import sk from "../locales/sk";
@@ -17,13 +18,16 @@ export default function AboutPage() {
 
   return (
     <>
+      <Head>
+        <title>{t.AboutUsTitle}</title>
+      </Head>
       <div className="main-panel">
         <BannerImg text={t.AboutPageBanner} />
         <div className="main-panel-inside container">
           <div className="logo-about">
             <Image
               src={LogoPath}
-              alt=""
+              alt={t.WebsiteLogoAlt}
               width={300}
               height={300}
               loading="lazy"

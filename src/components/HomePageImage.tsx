@@ -33,9 +33,9 @@ const HomePageImage = () => {
       <div className="mainImg">
         <h1>{t.HomePageImageHeading}</h1>
         <Slider {...settings}>
-          <Image src={img1Path} alt="" />
-          <Image src={img2Path} alt="" />
-          <Image src={img3Path} alt="" />
+          <Image src={img1Path} alt={t.HomePageTitleImg1Alt} />
+          <Image src={img2Path} alt={t.HomePageTitleImg2Alt} />
+          <Image src={img3Path} alt={t.HomePageTitleImg3Alt} />
         </Slider>
       </div>
     </>

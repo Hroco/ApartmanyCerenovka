@@ -11,7 +11,7 @@ export default function ContactFooter() {
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
   return (
     <>
-      <div className="contact-panel">
+      <section className="contact-panel">
         <div className="contact-panel-inside container">
           <div className="contact-panel-left">
             <h2>{t.ContactFooterHeading}</h2>
@@ -48,7 +48,7 @@ export default function ContactFooter() {
             ></iframe>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
