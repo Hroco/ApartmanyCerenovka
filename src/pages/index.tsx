@@ -25,6 +25,7 @@ import pl from "../locales/pl";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
@@ -104,8 +105,12 @@ export default function Home() {
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
   return (
     <>
+      <Head>
+        <title>{t.RootTitle}</title>
+        <meta name="description" content={t.RootMetaDescription}></meta>
+      </Head>
       <div className="main-panel">
-        <HomePageImage />
+        <HomePageImage />q
         <div className="main-panel-inside container">
           <h1>{t.HomePageHeading}</h1>
           <h2>{t.HomePageSubHeading}</h2>

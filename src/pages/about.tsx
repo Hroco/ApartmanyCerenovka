@@ -20,6 +20,7 @@ export default function AboutPage() {
     <>
       <Head>
         <title>{t.AboutUsTitle}</title>
+        <meta name="description" content={t.AboutUsMetaDescription}></meta>
       </Head>
       <div className="main-panel">
         <BannerImg text={t.AboutPageBanner} />

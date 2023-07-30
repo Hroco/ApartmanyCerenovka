@@ -168,6 +168,18 @@ const plLanguage = {
   ActivitiesTitle: "Aktywności - Apartamenty Čereňovka",
   GalleryTitle: "Galeria - Apartamenty Čereňovka",
   ContactTitle: "Kontakt - Apartamenty Čereňovka",
+  RootMetaDescription:
+    "Apartamenty Cereňovka - prywatne zakwaterowanie w miejscowości Ižipovce, w pobliżu Liptovska Mary i Liptovský Mikuláš.",
+  AboutUsMetaDescription:
+    "O nas - Krótkie informacje o właścicielach Apartamentów Čerenovka i ich pensjonacie.",
+  AccomodationMetaDescription:
+    "Zakwaterowanie - Przegląd oferty Apartamentów Čerenovka i ich udogodnień.",
+  ActivitiesMetaDescription:
+    "Aktywności - Przegląd możliwych aktywności dla gości Apartamentów Čerenovka.",
+  GalleryMetaDescription:
+    "Galeria - Lista zdjęć z Apartamentów Čerenovka i ich okolic.",
+  ContactMetaDescription:
+    "Kontakt - Formularz kontaktowy dla Apartamentów Čerenovka z możliwością rezerwacji pobytu.",
   test: "test",
 };
 

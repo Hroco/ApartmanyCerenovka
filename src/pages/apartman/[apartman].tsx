@@ -16,6 +16,7 @@ import Image from "next/image";
 import en from "../../locales/en";
 import sk from "../../locales/sk";
 import pl from "../../locales/pl";
+import Head from "next/head";
 
 interface ApartmentData {
   apartments: Record<
@@ -92,6 +93,10 @@ export default function ApartmentSite() {
 
   return (
     <>
+      <Head>
+        <title>{t.AccomodationTitle}</title>
+        <meta name="description" content={t.AccomodationMetaDescription}></meta>
+      </Head>
       <div className="main-panel">
         <BannerImg text={`${bannerKey}`} />
         <div className="main-panel-inside container">

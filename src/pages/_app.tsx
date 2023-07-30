@@ -19,10 +19,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
     <>
       <Head>
         <title>{t.RootTitle}</title>
-        <meta
-          name="description"
-          content="Apartmány Cereňovka - ubytovanie v súkromí v obci Ižipovce, v blízkosti Liptovskej Mary, Liptovského Mikuláša."
-        />
+        <meta name="description" content={t.RootMetaDescription}></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>

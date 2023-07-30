@@ -127,6 +127,7 @@ export default function Accomodation() {
     <>
       <Head>
         <title>{t.AccomodationTitle}</title>
+        <meta name="description" content={t.AccomodationMetaDescription}></meta>
       </Head>
       <div className="main-panel">
         <BannerImg text={t.AccomodationBanner} />

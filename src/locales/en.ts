@@ -168,6 +168,18 @@ const enLanguage = {
   ActivitiesTitle: "Activities - Cereňovka Apartments",
   GalleryTitle: "Gallery - Cereňovka Apartments",
   ContactTitle: "Contact - Cereňovka Apartments",
+  RootMetaDescription:
+    "Apartments Cereňovka - private accommodation in the village of Ižipovce, near Liptovská Mara and Liptovský Mikuláš.",
+  AboutUsMetaDescription:
+    "About Us - Brief information about the owners of Apartments Čerenovka and their guesthouse.",
+  AccomodationMetaDescription:
+    "Accommodation - Overview of the offer of Apartments Čerenovka and their facilities.",
+  ActivitiesMetaDescription:
+    "Activities - Overview of possible activities for guests of Apartments Čerenovka.",
+  GalleryMetaDescription:
+    "Gallery - List of photos from Apartments Čerenovka and its surroundings.",
+  ContactMetaDescription:
+    "Contact - Contact form for Apartments Čerenovka with the option to book a stay.",
   test: "test",
 };
 

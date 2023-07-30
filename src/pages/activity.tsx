@@ -94,6 +94,7 @@ export default function Activity() {
     <>
       <Head>
         <title>{t.ActivitiesTitle}</title>
+        <meta name="description" content={t.ActivitiesMetaDescription}></meta>
       </Head>
       <div className="main-panel">
         <BannerImg text={t.ActivityPageBanner} />

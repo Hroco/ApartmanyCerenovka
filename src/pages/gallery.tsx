@@ -45,6 +45,7 @@ export default function Gallery() {
     <>
       <Head>
         <title>{t.GalleryTitle}</title>
+        <meta name="description" content={t.GalleryMetaDescription}></meta>
       </Head>
       <div className="main-panel">
         <BannerImg text={t.GalleryBanner} />

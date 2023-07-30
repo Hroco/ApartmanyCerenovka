@@ -61,6 +61,7 @@ export default function Contact() {
     <>
       <Head>
         <title>{t.ContactTitle}</title>
+        <meta name="description" content={t.ContactMetaDescription}></meta>
       </Head>
       <div className="main-panel">
         <BannerImg text={t.ContactBanner} />
