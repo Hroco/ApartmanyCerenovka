@@ -12,7 +12,7 @@ export default function Footer() {
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
   return (
     <>
-      <div className="bottom-banner">
+      <section className="bottom-banner">
         <div className="bottom-banner-inside container">
           <div className="bottom-banner-left">
             <nav className="bottom-navbar">
@@ -47,7 +47,7 @@ export default function Footer() {
             <p>{t.FooterCopyright}</p>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

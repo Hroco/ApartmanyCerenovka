@@ -16,6 +16,7 @@ import Image from "next/image";
 import en from "../../locales/en";
 import sk from "../../locales/sk";
 import pl from "../../locales/pl";
+import Head from "next/head";
 
 interface ApartmentData {
   apartments: Record<
@@ -55,7 +56,7 @@ export default function ApartmentSite() {
           throw new Error("Failed to fetch image filenames");
         }
         const data = await response.json();
-        console.log("data", data);
+        // console.log("data", data);
         setImageFilenames1(
           data.map(
             (imageName: string) => getPath(apartman as string) + imageName
@@ -92,6 +93,10 @@ export default function ApartmentSite() {
 
   return (
     <>
+      <Head>
+        <title>{t.AccomodationTitle}</title>
+        <meta name="description" content={t.AccomodationMetaDescription}></meta>
+      </Head>
       <div className="main-panel">
         <BannerImg text={`${bannerKey}`} />
         <div className="main-panel-inside container">
@@ -201,7 +206,7 @@ export default function ApartmentSite() {
                   className="svg-big"
                   priority
                   src={Key}
-                  alt="Follow us on Twitter"
+                  alt={t.ApartmentItemKeyIconAlt}
                 />
                 <div className="infoContent">
                   <p>{t.ApartmentSiteCheckInOut}</p>
@@ -212,7 +217,7 @@ export default function ApartmentSite() {
                   className="svg-big"
                   priority
                   src={Pets}
-                  alt="Follow us on Twitter"
+                  alt={t.ApartmentItemPetIconAlt}
                 />
                 <div className="infoContent">
                   <p>{t.ApartmentSitePets}</p>
@@ -223,7 +228,7 @@ export default function ApartmentSite() {
                   className="svg-big"
                   priority
                   src={Smoke}
-                  alt="Follow us on Twitter"
+                  alt={t.ApartmentItemSmokeIconAlt}
                 />
                 <div className="infoContent">
                   <p>{t.ApartmentSiteSmoke}</p>

@@ -9,6 +9,7 @@ import en from "../locales/en";
 import sk from "../locales/sk";
 import pl from "../locales/pl";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function Contact() {
   const router = useRouter();
@@ -58,30 +59,42 @@ export default function Contact() {
   };
   return (
     <>
+      <Head>
+        <title>{t.ContactTitle}</title>
+        <meta name="description" content={t.ContactMetaDescription}></meta>
+      </Head>
       <div className="main-panel">
         <BannerImg text={t.ContactBanner} />
         <div className="main-panel-inside container">
           <h5>{t.ContactHeading}&nbsp;</h5>
           <form ref={form} onSubmit={sendEmail}>
-            <p>{t.ContactName}</p>
+            <p>
+              <b>{t.ContactName}</b>
+            </p>
             <p>
               <span>
                 <input type="text" name="user_name" required />
               </span>
             </p>
-            <p>{t.ContactEmail}</p>
+            <p>
+              <b>{t.ContactEmail}</b>
+            </p>
             <p>
               <span>
                 <input type="email" name="user_email" required />
               </span>
             </p>
-            <p>{t.ContactSubject}</p>
+            <p>
+              <b>{t.ContactSubject}</b>
+            </p>
             <p>
               <span>
                 <input type="text" name="user_subject"></input>
               </span>
             </p>
-            <p>{t.ContactMessage}</p>
+            <p>
+              <b>{t.ContactMessage}</b>
+            </p>
             <p>
               <span>
                 <textarea name="message" cols={40} rows={10}></textarea>

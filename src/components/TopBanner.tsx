@@ -26,6 +26,12 @@ export default function TopBanner() {
     void router.push(router.pathname, router.asPath, { locale: lng });
   };
 
+  useEffect(() => {
+    console.log("router.pathname", router.pathname);
+    window.scrollTo(0, 0);
+    setShowSmallMenu(false);
+  }, [router.pathname]);
+
   return (
     <>
       <div className="top-banner">
@@ -35,7 +41,7 @@ export default function TopBanner() {
               className="svg-small"
               priority
               src={HamburgerSVG}
-              alt="Follow us on Twitter"
+              alt={t.TopBannerAltBurgerIcon}
             />
           </button>
 
@@ -49,7 +55,7 @@ export default function TopBanner() {
                   className="svg-small"
                   priority
                   src={HamburgerSVG}
-                  alt="Follow us on Twitter"
+                  alt={t.TopBannerAltBurgerIcon}
                 />
               </button>
               <nav className="small-navbar-list">
@@ -93,7 +99,7 @@ export default function TopBanner() {
                 className="svg-small"
                 priority
                 src={EmailSVG}
-                alt="Follow us on Twitter"
+                alt={t.TopBannerAltEmailIcon}
               />
             </a>
             <a
@@ -105,7 +111,7 @@ export default function TopBanner() {
                 className="svg-small"
                 priority
                 src={FacebookSVG}
-                alt="Follow us on Twitter"
+                alt={t.TopBannerAltFacebookIcon}
               />
             </a>
             <a
@@ -117,7 +123,7 @@ export default function TopBanner() {
                 className="svg-small"
                 priority
                 src={InstagramSVG}
-                alt="Follow us on Twitter"
+                alt={t.TopBannerAltInstagramIcon}
               />
             </a>
             <button onClick={() => changeLanguage("sk")}>
@@ -125,7 +131,7 @@ export default function TopBanner() {
                 className="svg-small"
                 priority
                 src={SkSVG}
-                alt="Follow us on Twitter"
+                alt={t.TopBannerAltSlovakIcon}
               />
             </button>
             <button onClick={() => changeLanguage("en")}>
@@ -133,7 +139,7 @@ export default function TopBanner() {
                 className="svg-small"
                 priority
                 src={EnSVG}
-                alt="Follow us on Twitter"
+                alt={t.TopBannerAltEnglishIcon}
               />
             </button>
             <button onClick={() => changeLanguage("pl")}>
@@ -141,7 +147,7 @@ export default function TopBanner() {
                 className="svg-small"
                 priority
                 src={PlSVG}
-                alt="Follow us on Twitter"
+                alt={t.TopBannerAltPolandIcon}
               />
             </button>
           </div>

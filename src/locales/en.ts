@@ -133,6 +133,53 @@ const enLanguage = {
     "Each of our apartments is carefully designed with attention to detail to provide you with a pleasant and cozy home during your stay. Enjoy modern amenities and comfort that allows you to relax and unwind after a day of exploring the beauty of our surroundings.",
   AccomodationPageText3:
     "So, don't hesitate and browse through our wide range of apartments below. If you have any questions or need further information, feel free to contact us. We look forward to welcoming you in one of our apartments and providing you with an unforgettable experience you'll cherish long after your departure.",
+  TopBannerAltBurgerIcon: "Open menu",
+  TopBannerAltEmailIcon: "Write email",
+  TopBannerAltFacebookIcon: "Open Facebook",
+  TopBannerAltInstagramIcon: "Open Instagram",
+  TopBannerAltSlovakIcon: "Change language to Slovak",
+  TopBannerAltEnglishIcon: "Change language to English",
+  TopBannerAltPolandIcon: "Change language to Polish",
+  BannerImgAlt: "Main photo of Apartments under Čerenová",
+  HomePageTitleImg1Alt: "Main photo of Apartments under Čerenová",
+  HomePageTitleImg2Alt: "Main photo of Apartments under Čerenová",
+  HomePageTitleImg3Alt: "Main photo of Apartments under Čerenová",
+  ImageGalleryAlt: "Photo of Apartments under Čerenová website",
+  WebsiteLogoAlt: "Logo of Apartments under Čerenová website",
+  SliderIconNextAlt: "Move list to the right",
+  SliderIconPrevAlt: "Move list to the left",
+  HomePageImg1Alt: "View from Čerenová mountain",
+  HomePageImg2Alt: "View of Apartments Čerenová",
+  HomePageImg3Alt: "Pec from the Summer Kitchen",
+  HomePageImg4Alt: "View of Čerenová mountain",
+  ApartmentBlueAlt: "Blue apartment",
+  ApartmentRedAlt: "Red apartment",
+  ApartmentGreenAlt: "Green apartment",
+  ApartmentYellowAlt: "Yellow apartment",
+  ApartmentGreenBigAlt: "Large green apartment",
+  GalleryImgAlt: "Photo from the gallery of Apartments under Čerenová",
+  ApartmentItemKeyIconAlt:
+    "Self check-in starts from 16:00, checkout is until 10:00",
+  ApartmentItemPetIconAlt: "Pets are not allowed",
+  ApartmentItemSmokeIconAlt: "Smoking is not allowed in the apartment premises",
+  RootTitle: "Cereňovka Apartments - Apartments near Hill Čereňova",
+  AboutUsTitle: "About Us - Cereňovka Apartments",
+  AccomodationTitle: "Accommodation - Cereňovka Apartments",
+  ActivitiesTitle: "Activities - Cereňovka Apartments",
+  GalleryTitle: "Gallery - Cereňovka Apartments",
+  ContactTitle: "Contact - Cereňovka Apartments",
+  RootMetaDescription:
+    "Apartments Cereňovka - private accommodation in the village of Ižipovce, near Liptovská Mara and Liptovský Mikuláš.",
+  AboutUsMetaDescription:
+    "About Us - Brief information about the owners of Apartments Čerenovka and their guesthouse.",
+  AccomodationMetaDescription:
+    "Accommodation - Overview of the offer of Apartments Čerenovka and their facilities.",
+  ActivitiesMetaDescription:
+    "Activities - Overview of possible activities for guests of Apartments Čerenovka.",
+  GalleryMetaDescription:
+    "Gallery - List of photos from Apartments Čerenovka and its surroundings.",
+  ContactMetaDescription:
+    "Contact - Contact form for Apartments Čerenovka with the option to book a stay.",
   test: "test",
 };
 

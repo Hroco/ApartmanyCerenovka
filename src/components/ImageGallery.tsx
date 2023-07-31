@@ -1,6 +1,11 @@
 import Image from "next/image";
 import React, { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
+import { useRouter } from "next/router";
+
+import en from "../locales/en";
+import sk from "../locales/sk";
+import pl from "../locales/pl";
 
 interface ImageGalleryProps {
   imageList: string[];
@@ -9,6 +14,9 @@ interface ImageGalleryProps {
 export default function ImageGallery({ imageList }: ImageGalleryProps) {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "sk" ? sk : locale === "en" ? en : pl;
 
   // console.log(imageList);
 
@@ -22,7 +30,7 @@ export default function ImageGallery({ imageList }: ImageGalleryProps) {
     setIsViewerOpen(false);
   };
 
-  console.log(imageList);
+  // console.log(imageList);
 
   return (
     <div className="main-panel-galery">
@@ -30,7 +38,7 @@ export default function ImageGallery({ imageList }: ImageGalleryProps) {
         <div className="gallery-item" key={src}>
           <Image
             src={`${src}`}
-            alt=""
+            alt={t.GalleryImgAlt}
             width={300}
             height={225}
             onClick={() => openImageViewer(index)}
