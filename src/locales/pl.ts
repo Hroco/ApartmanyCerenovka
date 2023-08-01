@@ -132,7 +132,7 @@ const plLanguage = {
   AccomodationPageText2:
     "Każdy z naszych apartamentów jest starannie zaprojektowany z dbałością o detale, aby zapewnić Wam przyjemne i przytulne miejsce na czas pobytu. Cieszcie się nowoczesnym wyposażeniem i komfortem, który pozwoli Wam zrelaksować się i odpocząć po intensywnym dniu odkrywania piękna naszej okolicy.",
   AccomodationPageText3:
-    "Nie czekajcie i zapoznajcie się z naszą szeroką ofertą apartamentów poniżej. Jeśli macie jakiekolwiek pytania lub potrzebujecie dalszych informacji, śmiało się z nami skontaktujcie. Z niecierpliwością czekamy na Waszą wizytę i możliwość zapewnienia Wam niezapomnianego pobytu, o którym będziecie wspominać jeszcze długo po opuszczeniu naszego pensjonatu.",
+    "Nie wahaj się więc przejrzeć naszej szerokiej oferty apartamentów powyżej. Jeśli macie jakiekolwiek pytania lub potrzebujecie dalszych informacji, śmiało się z nami skontaktujcie. Z niecierpliwością czekamy na Waszą wizytę i możliwość zapewnienia Wam niezapomnianego pobytu, o którym będziecie wspominać jeszcze długo po opuszczeniu naszego pensjonatu.",
   ActivityPageText1:
     "Apartmány Čereňovka znajdują się w pięknym otoczeniu Liptovského Mikuláša na Słowacji! Tutaj możesz cieszyć się mnóstwem zabawy i aktywności, które zdecydowanie umilą Twój pobyt. Jedną z naszych głównych atrakcji jest letnia kuchnia, która jest częścią naszego pensjonatu. W tej przytulnej letniej kuchni znajdziesz dużą, murowaną piec, w którym możesz piec pyszne potrawy. Dodatkowo, znajduje się tu duży telewizor i wystarczająco miejsca do siedzenia dla 15 osób.",
   ActivityPageText2:
