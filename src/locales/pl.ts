@@ -133,7 +133,16 @@ const plLanguage = {
     "Każdy z naszych apartamentów jest starannie zaprojektowany z dbałością o detale, aby zapewnić Wam przyjemne i przytulne miejsce na czas pobytu. Cieszcie się nowoczesnym wyposażeniem i komfortem, który pozwoli Wam zrelaksować się i odpocząć po intensywnym dniu odkrywania piękna naszej okolicy.",
   AccomodationPageText3:
     "Nie czekajcie i zapoznajcie się z naszą szeroką ofertą apartamentów poniżej. Jeśli macie jakiekolwiek pytania lub potrzebujecie dalszych informacji, śmiało się z nami skontaktujcie. Z niecierpliwością czekamy na Waszą wizytę i możliwość zapewnienia Wam niezapomnianego pobytu, o którym będziecie wspominać jeszcze długo po opuszczeniu naszego pensjonatu.",
+  ActivityPageText1:
+    "Apartmány Čereňovka znajdują się w pięknym otoczeniu Liptovského Mikuláša na Słowacji! Tutaj możesz cieszyć się mnóstwem zabawy i aktywności, które zdecydowanie umilą Twój pobyt. Jedną z naszych głównych atrakcji jest letnia kuchnia, która jest częścią naszego pensjonatu. W tej przytulnej letniej kuchni znajdziesz dużą, murowaną piec, w którym możesz piec pyszne potrawy. Dodatkowo, znajduje się tu duży telewizor i wystarczająco miejsca do siedzenia dla 15 osób.",
+  ActivityPageText2:
+    "Dla tych, którzy lubią być aktywni, oferujemy wiele atrakcji na świeżym powietrzu. Na naszym podwórku możesz spróbować trampoliny i skorzystać z placu zabaw dla dzieci, który obejmuje zjeżdżalnię i huśtawki. Dzieci z pewnością znajdą tu miejsce do zabawy. Ponadto, mamy duży dziedziniec, na którym możesz grać w różne gry, takie jak tenis piłkarski, krokiet czy badminton.",
+  ActivityPageText3:
+    "Oprócz tych atrakcji, oferujemy również możliwość wędrówek po pobliskim wzgórzu o nazwie Čereňova, od którego pochodzi nazwa naszych apartamentów. Z wierzchołka tego wzgórza możesz podziwiać piękny widok na Liptovská Maru i Liptovský Mikuláš. Inną opcją jest odwiedzenie turystycznego raju Prosiecka Dolina, gdzie możesz cieszyć się spacerem po urzekającej przyrodzie.",
+  ActivityPageText4:
+    "Czy więc chcesz zrelaksować się, grillując i oglądając ulubiony program telewizyjny w naszej letniej kuchni, skorzystać z atrakcji na świeżym powietrzu, takich jak skakanie na trampolinie, zabawa na placu zabaw dla dzieci, uczestniczenie w różnych grach sportowych na naszym podwórku czy odkrywanie piękna Čereňovki i Prosieckiej Doliny, Apartmány Čereňovka są idealnym miejscem do zabawy, relaksu i turystyki. Z niecierpliwością czekamy na Twoją wizytę!",
   TopBannerAltBurgerIcon: "Otwórz menu",
+  TopBannerAltPhoneIcon: "Zadzwoń pod numer",
   TopBannerAltEmailIcon: "Napisz e-mail",
   TopBannerAltFacebookIcon: "Otwórz Facebooka",
   TopBannerAltInstagramIcon: "Otwórz Instagram",
