@@ -100,48 +100,19 @@ export default function Activity() {
         <BannerImg text={t.ActivityPageBanner} />
         <div className="main-panel-inside container">
           <div className="apartman-large-content">
-            <p className="p-subsite">
-              Apartmány Čereňovka sa nachádzajú v krásnom okolí Liptovského
-              Mikuláša na Slovensku! U nás si môžete vychutnať množstvo zábavy a
-              aktivít, ktoré určite spríjemnia Váš pobyt. Jednou z našich
-              hlavných atrakcií je letná kuchynka, ktorá je súčasťou nášho
-              penziónu. V tejto útulnej letnej kuchynke nájdete veľkú murovanú
-              pec, kde si môžete upiecť chutné jedlá. Okrem toho tu nájdete aj
-              veľký televízor a dostatok miesta na posedenie pre 15 ľudí.
-            </p>
+            <p className="p-subsite">{t.ActivityPageText1}</p>
             <hr></hr>
             <ImageGallery imageList={imageFilenames1} />
             <hr></hr>
-            <p className="p-subsite">
-              Pre tých, ktorí sa radi pohybujú, máme množstvo aktivít vonku. Na
-              našom dvore môžete vyskúšať trampolínu a využiť detské ihrisko,
-              ktoré obsahuje šmýkačku a húpačky. Deti si tu rozhodne nájdu svoje
-              miesto na hrátky. Okrem toho máme aj veľký dvor, kde môžete hrať
-              rôzne hry, ako napríklad futbalový tenis, kroket alebo badminton.
-            </p>
+            <p className="p-subsite">{t.ActivityPageText2}</p>
             <hr></hr>
             <ImageGallery imageList={imageFilenames2} />
             <hr></hr>
-            <p className="p-subsite">
-              Okrem týchto aktivít ponúkame aj možnosť turistiky na nedaleký
-              kopec Čereňova, po ktorom sú naše apartmány pomenované. Z vrcholu
-              tohto kopca môžete obdivovať nádherný výhľad na Liptovskú Maru a
-              Liptovský Mikuláš. Ďalšou možnosťou je navštíviť turistický raj
-              Prosiecka dolina, kde si môžete vychutnať prechádzku po úchvatnej
-              prírode.
-            </p>
+            <p className="p-subsite">{t.ActivityPageText3}</p>
             <hr></hr>
             <ImageGallery imageList={imageFilenames3} />
             <hr></hr>
-            <p className="p-subsite">
-              Takže, či už si prajete oddýchnuť si pri grilovaní a sledovaní
-              obľúbeného televízneho programu v našej letnej kuchynke, využiť
-              vonkajšie aktivity ako skákanie na trampolíne, hranie na detskom
-              ihrisku, rôzne športové hry na našom dvore, alebo objavovať krásy
-              Čereňovej a Prosieckej doliny, Apartmány Čereňovka sú ideálnym
-              miestom pre zábavu, relaxáciu a turistiku. Tešíme sa na Vašu
-              návštevu!
-            </p>
+            <p className="p-subsite">{t.ActivityPageText4}</p>
           </div>
         </div>
       </div>

@@ -133,7 +133,16 @@ const enLanguage = {
     "Each of our apartments is carefully designed with attention to detail to provide you with a pleasant and cozy home during your stay. Enjoy modern amenities and comfort that allows you to relax and unwind after a day of exploring the beauty of our surroundings.",
   AccomodationPageText3:
     "So, don't hesitate and browse through our wide range of apartments below. If you have any questions or need further information, feel free to contact us. We look forward to welcoming you in one of our apartments and providing you with an unforgettable experience you'll cherish long after your departure.",
+  ActivityPageText1:
+    "Apartmány Čereňovka are located in the beautiful surroundings of Liptovský Mikuláš in Slovakia! Here, you can enjoy plenty of fun and activities that will definitely enhance your stay. One of our main attractions is the summer kitchen, which is part of our guesthouse. In this cozy summer kitchen, you will find a large brick oven where you can bake delicious meals. Additionally, there is a big television and enough seating space for 15 people.",
+  ActivityPageText2:
+    "For those who love to be active, we offer a variety of outdoor activities. In our courtyard, you can try the trampoline and make use of the children's playground, which includes a slide and swings. Kids will certainly find their place for playtime here. Furthermore, we have a large yard where you can play various games like football tennis, croquet, or badminton.",
+  ActivityPageText3:
+    "Besides these activities, we also offer the opportunity for hiking on the nearby hill called Čereňova, after which our apartments are named. From the top of this hill, you can admire a beautiful view of Liptovská Mara and Liptovský Mikuláš. Another option is to visit the tourist paradise of Prosiecka Dolina, where you can enjoy a walk amidst captivating nature.",
+  ActivityPageText4:
+    "So whether you wish to relax while grilling and watching your favorite TV program in our summer kitchen, take advantage of outdoor activities like jumping on the trampoline, playing on the children's playground, engaging in various sports games in our yard, or exploring the beauties of Čereňovka and Prosiecka Dolina, Apartmány Čereňovka are the ideal place for entertainment, relaxation, and tourism. We look forward to your visit!",
   TopBannerAltBurgerIcon: "Open menu",
+  TopBannerAltPhoneIcon: "Call the number",
   TopBannerAltEmailIcon: "Write email",
   TopBannerAltFacebookIcon: "Open Facebook",
   TopBannerAltInstagramIcon: "Open Instagram",
