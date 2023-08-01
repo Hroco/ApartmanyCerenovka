@@ -132,7 +132,7 @@ const skLanguage = {
   AccomodationPageText2:
     "Každý z našich apartmánov je starostlivo navrhnutý s dôrazom na detaily, aby sme vám mohli poskytnúť príjemný a útulný domov na dobu vášho pobytu. Vychutnajte si moderné vybavenie a komfort, ktorý vám umožní zrelaxovať sa a oddýchnuť si po náročnom dni strávenom objavovaním krás nášho okolia.",
   AccomodationPageText3:
-    "Takže, neváhajte a prehliadnite si našu širokú ponuku apartmánov nižšie. Ak máte akékoľvek otázky alebo potrebujete ďalšie informácie, neváhajte nás kontaktovať. Tešíme sa na to, že vás privítame v jednom z našich apartmánov a poskytneme vám nezabudnuteľný zážitok, na ktorý budete spomínať ešte dlho po vašom odchode.",
+    "Takže, neváhajte a prehliadnite si našu širokú ponuku apartmánov vyššie. Ak máte akékoľvek otázky alebo potrebujete ďalšie informácie, neváhajte nás kontaktovať. Tešíme sa na to, že vás privítame v jednom z našich apartmánov a poskytneme vám nezabudnuteľný zážitok, na ktorý budete spomínať ešte dlho po vašom odchode.",
   ActivityPageText1:
     "Apartmány Čereňovka sa nachádzajú v krásnom okolí Liptovského Mikuláša na Slovensku! U nás si môžete vychutnať množstvo zábavy a aktivít, ktoré určite spríjemnia Váš pobyt. Jednou z našich hlavných atrakcií je letná kuchynka, ktorá je súčasťou nášho penziónu. V tejto útulnej letnej kuchynke nájdete veľkú murovanú pec, kde si môžete upiecť chutné jedlá. Okrem toho tu nájdete aj veľký televízor a dostatok miesta na posedenie pre 15 ľudí.",
   ActivityPageText2:
