@@ -122,6 +122,7 @@ export default function Home() {
               width={300}
               height={300}
               loading="lazy"
+              placeholder="blur"
             />
             <div>
               <h3 className="p-subsite">{t.HomePageLocationHeading}</h3>
@@ -142,6 +143,7 @@ export default function Home() {
               width={400}
               height={300}
               loading="lazy"
+              placeholder="blur"
             />
           </section>
 
@@ -154,6 +156,7 @@ export default function Home() {
               width={300}
               height={300}
               loading="lazy"
+              placeholder="blur"
             />
             <div>
               <h3 className="p-subsite">{t.HomePageOrganisationHeading}</h3>
@@ -173,6 +176,7 @@ export default function Home() {
               width={300}
               height={300}
               loading="lazy"
+              placeholder="blur"
             />
           </section>
           <p>&nbsp;</p>
