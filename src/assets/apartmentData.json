@@ -1,23 +1,43 @@
 {
     "apartments": {
       "green": {
-        "price": "60€",
+        "priceWinter": "105€",
+        "priceEaster": "135€",
+        "priceSummer": "90€",
+        "priceRest": "75€",
+        "priceNewYear": "135€",
         "size": "50 sqm"
       },
       "red": {
-        "price": "70€",
+        "priceWinter": "140€",
+        "priceEaster": "180€",
+        "priceSummer": "120€",
+        "priceRest": "100€",
+        "priceNewYear": "180€",
         "size": "60 sqm"
       },
       "blue": {
-        "price": "50€",
+        "priceWinter": "70€",
+        "priceEaster": "90€",
+        "priceSummer": "60€",
+        "priceRest": "50€",
+        "priceNewYear": "90€",
         "size": "45 sqm"
       },
       "yellow": {
-        "price": "100€",
+        "priceWinter": "280€",
+        "priceEaster": "360€",
+        "priceSummer": "240€",
+        "priceRest": "200€",
+        "priceNewYear": "360€",
         "size": "55 sqm"
       },
       "greenBig": {
-        "price": "90€",
+        "priceWinter": "210€",
+        "priceEaster": "270€",
+        "priceSummer": "180€",
+        "priceRest": "150€",
+        "priceNewYear": "270€",
         "size": "70 sqm"
       }
     }

@@ -14,7 +14,7 @@ const skLanguage = {
   BannerGreenBig: "Veľký zelený apartmán",
   ContactFooterHeading: "Rezervovať",
   ContactFooterNumber: "0907 371 032",
-  ContactFooterEmail: "vanilia706@gmail.com",
+  ContactFooterEmail: "vanillia706@gmail.com",
   ContactFooterFacebook: "Facebook",
   ContactFooterInstagram: "Instagram",
   HomePageHeading: "Štýlové ubytovanie v apartmánoch v Ižipovciach.",
@@ -99,7 +99,7 @@ const skLanguage = {
   ContactMessage: "Vaša správa",
   ContactSend: "Odošli",
   HomePageImageHeading:
-    "Apartmánový komplex pre rodiny a skupiny ľudí pod horou Čerňová.",
+    "Apartmánový komplex pre rodiny a skupiny ľudí pod horou Čereňová.",
   HomePageLocationHeading: "Poloha:",
   HomePageLocationText:
     "Náš útulný apartmánový komplex sa nachádza v malebnej dedinke Izipovce, ideálny pre milovníkov prírody a pokojného oddychu. Okolie ponúka množstvo možností na turistiku a cyklistiku. Naše moderné apartmány vám poskytnú všetok komfort pre príjemný pobyt. Hostia sa môžu ubytovať sami a užiť si pokojnú dovolenku. Rezervujte si svoj pobyt u nás a tešíme sa na vašu návštevu!",
@@ -126,7 +126,7 @@ const skLanguage = {
   AboutPageOurVisionText1:
     "Veríme, že naša práca a úsilie prinesú našim hosťom nezabudnuteľné zážitky a prežitky, ktoré ich budú sprevádzať aj po návrate domov. Chceme byť vašou prvou voľbou pri návšteve Liptova a miestom, kam sa budete radi vraciať.",
   AboutPageOurVisionText2:
-    "Ak hľadáte ideálne miesto pre oddych a spoznávanie krás Oravy, Apartmány pod Čerenovkou sú pre vás tou správnou voľbou. Tešíme sa na vašu návštevu a príležitosť poskytnúť vám nezabudnuteľný pobyt v našom penzióne.",
+    "Ak hľadáte ideálne miesto pre oddych a spoznávanie krás Liptovu, Apartmány pod Čerenovkou sú pre vás tou správnou voľbou. Tešíme sa na vašu návštevu a príležitosť poskytnúť vám nezabudnuteľný pobyt v našom penzióne.",
   AccomodationPageText1:
     "Vstúpte do sveta, kde elegancia a štýl sa spájajú s pohodlím a útulnosťou. Naša kolekcia apartmánov vám prináša rozmanité možnosti ubytovania, či už sa chystáte na romantickú únikovku pre dvoch, dovolenku s rodinou alebo obchodnú cestu s kolegami. Sme si istí, že nájdete ten pravý apartmán, ktorý splní všetky vaše očakávania.",
   AccomodationPageText2:
@@ -171,14 +171,14 @@ const skLanguage = {
     "Self checkin začína od 16:00, checkout prebieha do 10:00",
   ApartmentItemPetIconAlt: "Pobyt so zvieratami nie je možný",
   ApartmentItemSmokeIconAlt: "V priestoroch apartmánov nie je povolené fajčiť",
-  RootTitle: "Apartmány Cereňovka - Apartmány neďaleko Hory Čereňová",
+  RootTitle: "Apartmány Čereňovka - Apartmány neďaleko Hory Čereňová",
   AboutUsTitle: "O nás - Apartmány Čereňovka",
   AccomodationTitle: "Ubytovanie - Apartmány Čereňovka",
   ActivitiesTitle: "Aktivity - Apartmány Čereňovka",
   GalleryTitle: "Galéria - Apartmány Čereňovka",
   ContactTitle: "Kontakt - Apartmány Čereňovka",
   RootMetaDescription:
-    "Apartmány Cereňovka - ubytovanie v súkromí v obci Ižipovce, v blízkosti Liptovskej Mary, Liptovského Mikuláša.",
+    "Apartmány Čereňovka - ubytovanie v súkromí v obci Ižipovce, v blízkosti Liptovskej Mary, Liptovského Mikuláša.",
   AboutUsMetaDescription:
     "O nás - Strcne informácie o majiteľoch Apartmánov Čereňovka a ich penzióne",
   AccomodationMetaDescription:

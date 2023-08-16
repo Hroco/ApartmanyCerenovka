@@ -14,7 +14,7 @@ const plLanguage = {
   BannerGreenBig: "Duży apartament zielony",
   ContactFooterHeading: "Zarezerwuj Teraz",
   ContactFooterNumber: "0907 371 032",
-  ContactFooterEmail: "vanilia706@gmail.com",
+  ContactFooterEmail: "vanillia706@gmail.com",
   ContactFooterFacebook: "Facebook",
   ContactFooterInstagram: "Instagram",
   HomePageHeading: "Stylowe zakwaterowanie w apartamentach w Ižipovce.",
@@ -87,7 +87,7 @@ const plLanguage = {
   ApartmentSitePricingTablePriceInfo2:
     "Ceny za apartament za noc są orientacyjne i zależą od różnych czynników, takich jak liczba nocy, sezon, liczba gości i wiek dzieci. Jeśli pobyt trwa mniej niż 3 noce w sezonie letnim lub zimowym, może być naliczona dodatkowa opłata. Jeśli jesteś zainteresowany wynajęciem całej Willi, chętnie przedstawimy Ci ofertę cenową.",
   AboutPageBanner: "O Nas",
-  AboutPageHeading: "Apartamenty Cerenovka",
+  AboutPageHeading: "Apartamenty Čerenovka",
   AccomodationBanner: "Noclegi",
   ActivityPageBanner: "Aktywności",
   GalleryBanner: "Galeria",
@@ -171,14 +171,14 @@ const plLanguage = {
     "Samodzielne zameldowanie od 16:00, wymeldowanie do 10:00",
   ApartmentItemPetIconAlt: "Zakaz pobytu z zwierzętami",
   ApartmentItemSmokeIconAlt: "Palenie w apartamentach jest zabronione",
-  RootTitle: "Apartamenty Cereňovka - Apartamenty w pobliżu Hory Čereňova",
+  RootTitle: "Apartamenty Čereňovka - Apartamenty w pobliżu Hory Čereňova",
   AboutUsTitle: "O nas - Apartamenty Čereňovka",
   AccomodationTitle: "Zakwaterowanie - Apartamenty Čereňovka",
   ActivitiesTitle: "Aktywności - Apartamenty Čereňovka",
   GalleryTitle: "Galeria - Apartamenty Čereňovka",
   ContactTitle: "Kontakt - Apartamenty Čereňovka",
   RootMetaDescription:
-    "Apartamenty Cereňovka - prywatne zakwaterowanie w miejscowości Ižipovce, w pobliżu Liptovska Mary i Liptovský Mikuláš.",
+    "Apartamenty Čereňovka - prywatne zakwaterowanie w miejscowości Ižipovce, w pobliżu Liptovska Mary i Liptovský Mikuláš.",
   AboutUsMetaDescription:
     "O nas - Krótkie informacje o właścicielach Apartamentów Čerenovka i ich pensjonacie.",
   AccomodationMetaDescription:

@@ -17,12 +17,17 @@ import en from "../../locales/en";
 import sk from "../../locales/sk";
 import pl from "../../locales/pl";
 import Head from "next/head";
+import Script from "next/script";
 
 interface ApartmentData {
   apartments: Record<
     string,
     {
-      price: string;
+      priceWinter: string;
+      priceEaster: string;
+      priceSummer: string;
+      priceRest: string;
+      priceNewYear: string;
       size: string;
     }
   >;
@@ -56,12 +61,15 @@ export default function ApartmentSite() {
           throw new Error("Failed to fetch image filenames");
         }
         const data = await response.json();
-        // console.log("data", data);
-        setImageFilenames1(
-          data.map(
-            (imageName: string) => getPath(apartman as string) + imageName
-          )
+        console.log("data", data);
+
+        const dataArray = data.map(
+          (imageName: string) => getPath(apartman as string) + imageName
         );
+
+        console.log("dataArray", dataArray);
+
+        setImageFilenames1(dataArray);
       } catch (error) {
         console.error(error);
       }
@@ -69,7 +77,7 @@ export default function ApartmentSite() {
     if (router.isReady) {
       fetchImages1();
     }
-  }, []);
+  }, [apartman, router.isReady]);
 
   if (!router.isReady) {
     return null;
@@ -97,6 +105,18 @@ export default function ApartmentSite() {
         <title>{t.AccomodationTitle}</title>
         <meta name="description" content={t.AccomodationMetaDescription}></meta>
       </Head>
+      <div className="container">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-FSCHP9Q3SL');
+        `}
+        </Script>
+      </div>
       <div className="main-panel">
         <BannerImg text={`${bannerKey}`} />
         <div className="main-panel-inside container">
@@ -249,7 +269,8 @@ export default function ApartmentSite() {
                   <td>{t.ApartmentSitePricingTableWinterSeason}</td>
                   <td>15.12 - 31.03</td>
                   <td>
-                    {apartmentData?.price}/{t.ApartmentSitePricingTableNight}
+                    {apartmentData?.priceWinter}/
+                    {t.ApartmentSitePricingTableNight}
                   </td>
                   <td>{t.ApartmentSitePricingTableMinimum} 3</td>
                   <td>{t.ApartmentSitePricingTablePriceInfo}</td>
@@ -258,7 +279,8 @@ export default function ApartmentSite() {
                   <td>{t.ApartmentSitePricingTableEaster}</td>
                   <td>01.04 - 07.04</td>
                   <td>
-                    {apartmentData?.price}/{t.ApartmentSitePricingTableNight}
+                    {apartmentData?.priceEaster}/
+                    {t.ApartmentSitePricingTableNight}
                   </td>
                   <td>{t.ApartmentSitePricingTableMinimum} 4</td>
                   <td>{t.ApartmentSitePricingTablePriceInfo}</td>
@@ -267,7 +289,8 @@ export default function ApartmentSite() {
                   <td>{t.ApartmentSitePricingTableSummerSeason}</td>
                   <td>01.07 - 31.08</td>
                   <td>
-                    {apartmentData?.price}/{t.ApartmentSitePricingTableNight}
+                    {apartmentData?.priceSummer}/
+                    {t.ApartmentSitePricingTableNight}
                   </td>
                   <td>{t.ApartmentSitePricingTableMinimum} 3</td>
                   <td>{t.ApartmentSitePricingTablePriceInfo}</td>
@@ -276,7 +299,8 @@ export default function ApartmentSite() {
                   <td>{t.ApartmentSitePricingTableOutOfSeason}</td>
                   <td>x</td>
                   <td>
-                    {apartmentData?.price}/{t.ApartmentSitePricingTableNight}
+                    {apartmentData?.priceRest}/
+                    {t.ApartmentSitePricingTableNight}
                   </td>
                   <td>{t.ApartmentSitePricingTableMinimum} 3</td>
                   <td>{t.ApartmentSitePricingTablePriceInfo}</td>
@@ -285,7 +309,8 @@ export default function ApartmentSite() {
                   <td>{t.ApartmentSitePricingTableNewYear}</td>
                   <td>23.12 - 03.01</td>
                   <td>
-                    {apartmentData?.price}/{t.ApartmentSitePricingTableNight}
+                    {apartmentData?.priceNewYear}/
+                    {t.ApartmentSitePricingTableNight}
                   </td>
                   <td>{t.ApartmentSitePricingTableMinimum} 5</td>
                   <td>{t.ApartmentSitePricingTablePriceInfo}</td>
