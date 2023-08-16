@@ -10,6 +10,7 @@ import en from "../locales/en";
 import sk from "../locales/sk";
 import pl from "../locales/pl";
 import { useRouter } from "next/router";
+import Script from "next/script";
 
 export default function AboutPage() {
   const router = useRouter();
@@ -22,6 +23,18 @@ export default function AboutPage() {
         <title>{t.AboutUsTitle}</title>
         <meta name="description" content={t.AboutUsMetaDescription}></meta>
       </Head>
+      <div className="container">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-FSCHP9Q3SL');
+        `}
+        </Script>
+      </div>
       <div className="main-panel">
         <BannerImg text={t.AboutPageBanner} />
         <div className="main-panel-inside container">

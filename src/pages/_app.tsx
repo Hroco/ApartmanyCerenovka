@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import TopBanner from "../components/TopBanner";
 import { useRouter } from "next/router";
+import previewImage from "../assets/logo.png";
 
 import en from "../locales/en";
 import sk from "../locales/sk";
@@ -20,6 +21,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       <Head>
         <title>{t.RootTitle}</title>
         <meta name="description" content={t.RootMetaDescription}></meta>
+        <meta property="og:image" content={previewImage.src} key="ogimage" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>

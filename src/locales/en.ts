@@ -14,7 +14,7 @@ const enLanguage = {
   BannerGreenBig: "Large Green Apartment",
   ContactFooterHeading: "Book Now",
   ContactFooterNumber: "0907 371 032",
-  ContactFooterEmail: "vanilia706@gmail.com",
+  ContactFooterEmail: "vanillia706@gmail.com",
   ContactFooterFacebook: "Facebook",
   ContactFooterInstagram: "Instagram",
   HomePageHeading: "Stylish Accommodation in Apartments in Ižipovce.",
@@ -87,7 +87,7 @@ const enLanguage = {
   ApartmentSitePricingTablePriceInfo2:
     "Prices for the apartment per night are indicative and depend on various factors such as the number of nights, season, number of guests, and children's age. If the stay is less than 3 nights during the summer or winter season, an additional surcharge may apply. If you are interested in renting the entire Villa, we will be happy to provide you with a price quote.",
   AboutPageBanner: "About Us",
-  AboutPageHeading: "Cerenovka Apartments",
+  AboutPageHeading: "Čereňovka Apartments",
   AccomodationBanner: "Accommodation",
   ActivityPageBanner: "Activities",
   GalleryBanner: "Gallery",
@@ -99,7 +99,7 @@ const enLanguage = {
   ContactMessage: "Your Message",
   ContactSend: "Send",
   HomePageImageHeading:
-    "Apartment Complex for Families and Groups of People under Mount Čerňová.",
+    "Apartment Complex for Families and Groups of People under Mount Čereňová.",
   HomePageLocationHeading: "Location:",
   HomePageLocationText:
     "Our cozy apartment complex is located in the picturesque village of Izipovce, ideal for nature lovers and peaceful relaxation. The surroundings offer plenty of opportunities for hiking and cycling. Our modern apartments will provide you with all the comfort for a pleasant stay. Guests can accommodate themselves and enjoy a peaceful vacation. Book your stay with us, and we look forward to your visit!",
@@ -126,7 +126,7 @@ const enLanguage = {
   AboutPageOurVisionText1:
     "We believe that our work and efforts will bring our guests unforgettable experiences and memories that will stay with them even after returning home. We aim to be your first choice when visiting Liptov and a place you'll love to return to.",
   AboutPageOurVisionText2:
-    "If you're looking for the ideal place for relaxation and exploring the beauty of Orava, Apartmány pod Čerenovkou is the right choice for you. We look forward to your visit and the opportunity to provide you with an unforgettable stay in our pension.",
+    "If you're looking for the ideal place for relaxation and exploring the beauty of Liptov, Apartmány pod Čerenovkou is the right choice for you. We look forward to your visit and the opportunity to provide you with an unforgettable stay in our pension.",
   AccomodationPageText1:
     "Step into a world where elegance and style blend with comfort and coziness. Our collection of apartments offers various accommodation options, whether you're planning a romantic getaway for two, a family vacation, or a business trip with colleagues. We are confident that you will find the perfect apartment that meets all your expectations.",
   AccomodationPageText2:
@@ -171,14 +171,14 @@ const enLanguage = {
     "Self check-in starts from 16:00, checkout is until 10:00",
   ApartmentItemPetIconAlt: "Pets are not allowed",
   ApartmentItemSmokeIconAlt: "Smoking is not allowed in the apartment premises",
-  RootTitle: "Cereňovka Apartments - Apartments near Hill Čereňova",
-  AboutUsTitle: "About Us - Cereňovka Apartments",
-  AccomodationTitle: "Accommodation - Cereňovka Apartments",
-  ActivitiesTitle: "Activities - Cereňovka Apartments",
-  GalleryTitle: "Gallery - Cereňovka Apartments",
-  ContactTitle: "Contact - Cereňovka Apartments",
+  RootTitle: "Čereňovka Apartments - Apartments near Hill Čereňova",
+  AboutUsTitle: "About Us - Čereňovka Apartments",
+  AccomodationTitle: "Accommodation - Čereňovka Apartments",
+  ActivitiesTitle: "Activities - Čereňovka Apartments",
+  GalleryTitle: "Gallery - Čereňovka Apartments",
+  ContactTitle: "Contact - Čereňovka Apartments",
   RootMetaDescription:
-    "Apartments Cereňovka - private accommodation in the village of Ižipovce, near Liptovská Mara and Liptovský Mikuláš.",
+    "Apartments Čereňovka - private accommodation in the village of Ižipovce, near Liptovská Mara and Liptovský Mikuláš.",
   AboutUsMetaDescription:
     "About Us - Brief information about the owners of Apartments Čerenovka and their guesthouse.",
   AccomodationMetaDescription:

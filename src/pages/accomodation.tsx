@@ -22,6 +22,7 @@ import en from "../locales/en";
 import sk from "../locales/sk";
 import pl from "../locales/pl";
 import Head from "next/head";
+import Script from "next/script";
 
 function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
@@ -129,6 +130,18 @@ export default function Accomodation() {
         <title>{t.AccomodationTitle}</title>
         <meta name="description" content={t.AccomodationMetaDescription}></meta>
       </Head>
+      <div className="container">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-FSCHP9Q3SL');
+        `}
+        </Script>
+      </div>
       <div className="main-panel">
         <BannerImg text={t.AccomodationBanner} />
         <div className="main-panel-inside container">

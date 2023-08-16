@@ -21,7 +21,12 @@ export default function BannerImg({ text }: BannerImgProps) {
     <>
       <div className="banner-main">
         <div className="text-container">{text}</div>
-        <Image src={BannerImgPath} alt={t.BannerImgAlt} loading="lazy" />
+        <Image
+          src={BannerImgPath}
+          alt={t.BannerImgAlt}
+          loading="lazy"
+          placeholder="blur"
+        />
       </div>
     </>
   );

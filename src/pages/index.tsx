@@ -26,6 +26,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import Script from "next/script";
 
 function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
@@ -109,6 +110,18 @@ export default function Home() {
         <title>{t.RootTitle}</title>
         <meta name="description" content={t.RootMetaDescription}></meta>
       </Head>
+      <div className="container">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-FSCHP9Q3SL');
+        `}
+        </Script>
+      </div>
       <div className="main-panel">
         <HomePageImage />
         <div className="main-panel-inside container">
@@ -122,6 +135,7 @@ export default function Home() {
               width={300}
               height={300}
               loading="lazy"
+              placeholder="blur"
             />
             <div>
               <h3 className="p-subsite">{t.HomePageLocationHeading}</h3>
@@ -142,6 +156,7 @@ export default function Home() {
               width={400}
               height={300}
               loading="lazy"
+              placeholder="blur"
             />
           </section>
 
@@ -154,6 +169,7 @@ export default function Home() {
               width={300}
               height={300}
               loading="lazy"
+              placeholder="blur"
             />
             <div>
               <h3 className="p-subsite">{t.HomePageOrganisationHeading}</h3>
@@ -173,6 +189,7 @@ export default function Home() {
               width={300}
               height={300}
               loading="lazy"
+              placeholder="blur"
             />
           </section>
           <p>&nbsp;</p>

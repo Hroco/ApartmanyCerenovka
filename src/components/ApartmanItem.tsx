@@ -81,8 +81,9 @@ export default function ApartmentItem({
               width={300}
               height={280}
               loading="lazy"
+              placeholder="blur"
             />
-            <h3>{description} (4+2)</h3>
+            <h3>{description}</h3>
             <br />
           </div>
           <div className="apartman-bottom">

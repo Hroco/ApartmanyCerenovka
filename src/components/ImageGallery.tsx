@@ -12,6 +12,7 @@ interface ImageGalleryProps {
 }
 
 export default function ImageGallery({ imageList }: ImageGalleryProps) {
+  console.log(imageList);
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const router = useRouter();
