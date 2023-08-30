@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import TopBanner from "../components/TopBanner";
 import { useRouter } from "next/router";
-import previewImage from "../assets/logo.png";
+import previewImage from "../assets/logoRectangle.png";
 
 import en from "../locales/en";
 import sk from "../locales/sk";
