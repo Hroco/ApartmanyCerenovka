@@ -88,7 +88,7 @@ const plLanguage = {
     "Ceny za apartament za noc są tylko przybliżone i zależą od różnych czynników, takich jak liczba nocy, sezon, liczba gości i wiek dzieci. Jeśli pobyt trwa mniej niż 3 noce w sezonie letnim lub zimowym, może obowiązywać dodatkowa opłata. Jeśli jesteś zainteresowany wynajęciem całej willi, chętnie złożymy Ci ofertę cenową.",
   AboutPageBanner: "O Nas",
   AboutPageHeading: "Apartamenty Čereňovka",
-  AccomodationBanner: "Zakwaterowanie",
+  AccommodationBanner: "Zakwaterowanie",
   ActivityPageBanner: "Aktywności",
   GalleryBanner: "Galeria",
   ContactBanner: "Kontakt",

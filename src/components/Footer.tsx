@@ -26,7 +26,7 @@ export default function Footer() {
                 </li>
                 <li className="footer-separator">|</li>
                 <li>
-                  <Link href="/accomodation">{t.MenuItem_3}</Link>
+                  <Link href="/accommodation">{t.MenuItem_3}</Link>
                 </li>
                 <li className="footer-separator">|</li>
                 <li>

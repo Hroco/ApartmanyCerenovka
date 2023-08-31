@@ -88,7 +88,7 @@ const skLanguage = {
     "Ceny za apartmán za jednu noc sú len orientačné a závisia na rôznych faktoroch, ako je počet nocí, sezóna, počet hostí a vek detí. Ak trvá pobyt menej ako 3 noci počas letnej alebo zimnej sezóny, môže sa účtovať dodatočný príplatok. Ak máte záujem o prenájom celej vily, radi vám vypracujeme cenovú ponuku.",
   AboutPageBanner: "O Nás",
   AboutPageHeading: "Apartmány Čereňovka",
-  AccomodationBanner: "Ubytovanie",
+  AccommodationBanner: "Ubytovanie",
   ActivityPageBanner: "Aktivity",
   GalleryBanner: "Galéria",
   ContactBanner: "Kontakt",
@@ -127,11 +127,11 @@ const skLanguage = {
     "Veríme, že naša práca a úsilie prinesú našim hosťom nezabudnuteľné zážitky a prežitky, ktoré ich budú sprevádzať aj po návrate domov. Chceme byť vašou prvou voľbou pri návšteve Liptova a miestom, kam sa budete radi vraciať.",
   AboutPageOurVisionText2:
     "Ak hľadáte ideálne miesto pre oddych a spoznávanie krás Liptovu, Apartmány pod Čerenovkou sú pre vás tou správnou voľbou. Tešíme sa na vašu návštevu a príležitosť poskytnúť Vám príjemný pobyt v našom penzióne.",
-  AccomodationPageText1:
+  AccommodationPageText1:
     "Vstúpte do sveta, kde elegancia a štýl sa spájajú s pohodlím a útulnosťou. Naša kolekcia apartmánov Vám prináša rozmanité možnosti ubytovania, či už sa chystáte na romantický výlet vo dvojici, dovolenku s rodinou alebo pracovný pobyt či teambuilding s kolegami. Sme si istí, že si vyberiete z našej pestrej ponuky ten pravý apartmán, ktorý splní všetky Vaše očakávania.",
-  AccomodationPageText2:
+  AccommodationPageText2:
     "Každý z našich apartmánov je starostlivo navrhnutý s dôrazom na detaily, aby sme Vám mohli poskytnúť príjemný a útulný domov na celú dobu Vášho pobytu. Vychutnajte si moderné vybavenie a komfort, ktorý Vám umožní zrelaxovať sa a oddýchnuť si po náročnom dni strávenom objavovaním krás nášho okolia.",
-  AccomodationPageText3:
+  AccommodationPageText3:
     "Takže, neváhajte a prehliadnite si našu širokú ponuku apartmánov vyššie. Ak máte akékoľvek otázky alebo potrebujete ďalšie informácie, neváhajte nás kontaktovať. Tešíme sa na to, že vás privítame v jednom z našich apartmánov a poskytneme vám nezabudnuteľný zážitok, na ktorý budete spomínať ešte dlho po vašom odchode.",
   ActivityPageText1:
     "Apartmány Čereňovka sa nachádzajú v ideálnej lokalite v krásnom okolí Liptovského Mikuláša a v tesnej blízkosti Liptovskej Mary. U nás si môžete vychutnať množstvo zábavy a aktivít, ktoré určite spríjemnia Váš pobyt.",
@@ -175,7 +175,7 @@ const skLanguage = {
   ApartmentItemSmokeIconAlt: "V priestoroch apartmánov nie je povolené fajčiť",
   RootTitle: "Apartmány Čereňovka - Apartmány neďaleko Hory Čereňová",
   AboutUsTitle: "O nás - Apartmány Čereňovka",
-  AccomodationTitle: "Ubytovanie - Apartmány Čereňovka",
+  AccommodationTitle: "Ubytovanie - Apartmány Čereňovka",
   ActivitiesTitle: "Aktivity - Apartmány Čereňovka",
   GalleryTitle: "Galéria - Apartmány Čereňovka",
   ContactTitle: "Kontakt - Apartmány Čereňovka",
@@ -183,7 +183,7 @@ const skLanguage = {
     "Apartmány Čereňovka - ubytovanie v súkromí v obci Ižipovce, v blízkosti Liptovskej Mary, Liptovského Mikuláša.",
   AboutUsMetaDescription:
     "O nás - Strcne informácie o majiteľoch Apartmánov Čereňovka a ich penzióne",
-  AccomodationMetaDescription:
+  AccommodationMetaDescription:
     "Ubytovanie - Prehľad ponuky Apartmánov Čereňovka a ich vybavenia",
   ActivitiesMetaDescription:
     "Aktivity - Prehľad možných aktivít pre hostí Apartmánov Čereňovka",

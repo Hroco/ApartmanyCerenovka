@@ -66,7 +66,7 @@ function SamplePrevArrow(props: any) {
   );
 }
 
-export default function Accomodation() {
+export default function Accommodation() {
   const sliderRef = useRef<Slider | null>(null);
   const router = useRouter();
   const { locale } = router;
@@ -127,8 +127,11 @@ export default function Accomodation() {
   return (
     <>
       <Head>
-        <title>{t.AccomodationTitle}</title>
-        <meta name="description" content={t.AccomodationMetaDescription}></meta>
+        <title>{t.AccommodationTitle}</title>
+        <meta
+          name="description"
+          content={t.AccommodationMetaDescription}
+        ></meta>
       </Head>
       <div className="container">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
@@ -143,10 +146,10 @@ export default function Accomodation() {
         </Script>
       </div>
       <div className="main-panel">
-        <BannerImg text={t.AccomodationBanner} />
+        <BannerImg text={t.AccommodationBanner} />
         <div className="main-panel-inside container">
           <section className="main-panel-down">
-            <p className="p-subsite">{t.AccomodationPageText1}</p>
+            <p className="p-subsite">{t.AccommodationPageText1}</p>
           </section>
           <p>&nbsp;</p>
           <section className="apartment-container">
@@ -215,11 +218,11 @@ export default function Accomodation() {
           <p>&nbsp;</p>
 
           <section className="main-panel-down">
-            <p className="p-subsite">{t.AccomodationPageText2}</p>
+            <p className="p-subsite">{t.AccommodationPageText2}</p>
           </section>
           <p>&nbsp;</p>
           <section className="main-panel-down">
-            <p className="p-subsite">{t.AccomodationPageText3}</p>
+            <p className="p-subsite">{t.AccommodationPageText3}</p>
           </section>
           <p>&nbsp;</p>
         </div>

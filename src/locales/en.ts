@@ -89,7 +89,7 @@ const enLanguage = {
     "Prices per apartment per night are only approximate and depend on various factors, such as the number of nights, season, number of guests, and children's age. If the stay is less than 3 nights during the summer or winter season, an additional surcharge may apply. If you are interested in renting the entire villa, we will be happy to provide you with a price offer.",
   AboutPageBanner: "About Us",
   AboutPageHeading: "Čereňovka Apartments",
-  AccomodationBanner: "Accommodation",
+  AccommodationBanner: "Accommodation",
   ActivityPageBanner: "Activities",
   GalleryBanner: "Gallery",
   ContactBanner: "Contact",
