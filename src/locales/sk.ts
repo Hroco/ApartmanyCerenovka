@@ -202,7 +202,7 @@ const skLanguage = {
   ActivitiesTableHeading2: "Spoplatnené atrakcie",
   ActivitiesTableItem8: "Elektrické bicykle",
   ActivitiesTableItem9: "Kaďa",
-  test: "test",
+  test: "test1",
 };
 
 export default skLanguage;
