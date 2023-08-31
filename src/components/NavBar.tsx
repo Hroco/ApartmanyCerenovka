@@ -33,7 +33,7 @@ export default function NavBar() {
           <Link href="/about">{t.MenuItem_2}</Link>
         </li>
         <li>
-          <Link href="/accomodation">{t.MenuItem_3}</Link>
+          <Link href="/accommodation">{t.MenuItem_3}</Link>
         </li>
         <li>
           <Link href="/activity">{t.MenuItem_4}</Link>

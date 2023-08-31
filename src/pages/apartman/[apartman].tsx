@@ -102,8 +102,11 @@ export default function ApartmentSite() {
   return (
     <>
       <Head>
-        <title>{t.AccomodationTitle}</title>
-        <meta name="description" content={t.AccomodationMetaDescription}></meta>
+        <title>{t.AccommodationTitle}</title>
+        <meta
+          name="description"
+          content={t.AccommodationMetaDescription}
+        ></meta>
       </Head>
       <div className="container">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
