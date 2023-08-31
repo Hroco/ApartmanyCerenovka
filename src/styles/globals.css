@@ -282,7 +282,7 @@ hr {
 }
 
 .p-subsite {
-  text-align: left;
+  text-align: center;
   font-size: 1.6rem;
   /*width: 65%;*/
   margin-left: auto;
@@ -676,6 +676,22 @@ hr {
   justify-content: space-between;
 }
 
+.apartmentActivities {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  font-size: 3rem;
+}
+
+.apartmentActivities td {
+  font-size: 3rem;
+}
+
+.apartmentActivities h3 {
+  font-size: 3.5rem;
+}
+
 .apartmentEquipment > div{
   text-align: left;
 }
@@ -915,7 +931,7 @@ hr {
   }
 
   .p-subsite {
-    text-align: left;
+    text-align: center;
     font-size: 1.6rem;
     /*width: 65%;*/
     margin-left: auto;

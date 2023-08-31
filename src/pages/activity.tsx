@@ -115,6 +115,61 @@ export default function Activity() {
           <div className="apartman-large-content">
             <p className="p-subsite">{t.ActivityPageText1}</p>
             <hr></hr>
+            <div className="apartmentActivities">
+              <div>
+                <h3>{t.ActivitiesTableHeading1}</h3>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ActivitiesTableItem1}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ActivitiesTableItem2}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ActivitiesTableItem3}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ActivitiesTableItem4}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ActivitiesTableItem5}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ActivitiesTableItem6}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ActivitiesTableItem7}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div>
+                <h3>{t.ActivitiesTableHeading2}</h3>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ActivitiesTableItem8}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ActivitiesTableItem9}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <hr></hr>
+            <p className="p-subsite">{t.ActivityPageText12}</p>
+            <hr></hr>
             <ImageGallery imageList={imageFilenames1} />
             <hr></hr>
             <p className="p-subsite">{t.ActivityPageText2}</p>
