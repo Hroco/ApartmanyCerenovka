@@ -312,7 +312,7 @@ export default function ApartmentSite() {
                     {apartmentData?.priceNewYear}/
                     {t.ApartmentSitePricingTableNight}
                   </td>
-                  <td>{t.ApartmentSitePricingTableMinimum} 5</td>
+                  <td>{t.ApartmentSitePricingTableMinimum} 4</td>
                   <td>{t.ApartmentSitePricingTablePriceInfo}</td>
                 </tr>
               </tbody>

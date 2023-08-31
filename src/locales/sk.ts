@@ -10,8 +10,8 @@ const skLanguage = {
   BannerBlue: "Modrý apartmán",
   BannerGreen: "Zelený apartmán",
   BannerRed: "Červený apartmán",
-  BannerYellow: "Žltý apartmán",
-  BannerGreenBig: "Veľký zelený apartmán",
+  BannerYellow: "Apartmán Prosečné",
+  BannerGreenBig: "Apartmán Čereňová",
   ContactFooterHeading: "Rezervovať",
   ContactFooterNumber: "0907 371 032",
   ContactFooterEmail: "vanillia706@gmail.com",
@@ -31,10 +31,10 @@ const skLanguage = {
   ApartmentRedName: "Červený apartmán",
   ApartmentRedDescription:
     "Rodinný apartmán na prízemí s výhľadom na Čereňovú, vhodný pre 4 osoby",
-  ApartmentYellowName: "Žltý apartmán",
+  ApartmentYellowName: "Apartmán Prosečné",
   ApartmentYellowDescription:
     "Rodinný apartmán na poschodí s výhľadom na Čereňovú, vhodný pre 9 osôb",
-  ApartmentGreenBigName: "Zelený apartmán",
+  ApartmentGreenBigName: "Apartmán Čereňová",
   ApartmentGreenBigDescription:
     "Rodinný apartmán na poschodí, vhodný pre 5 osôb",
   ApartmentItemBeds: "Postele",
@@ -85,9 +85,9 @@ const skLanguage = {
   ApartmentSitePricingTableMinimum: "Minimálne",
   ApartmentSitePricingTablePriceInfo: "Cena je orientačná",
   ApartmentSitePricingTablePriceInfo2:
-    "Ceny za apartmán za jednu noc sú len orientačné a závisia na rôznych faktoroch, ako je počet nocí, sezóna, počet hostí a vek detí. Ak trvá pobyt menej ako 3 noci počas letnej alebo zimnej sezóny, môže sa účtovať dodatočný príplatok. Ak máte záujem o prenájom celej Villy, radi vám vypracujeme cenovú ponuku.",
+    "Ceny za apartmán za jednu noc sú len orientačné a závisia na rôznych faktoroch, ako je počet nocí, sezóna, počet hostí a vek detí. Ak trvá pobyt menej ako 3 noci počas letnej alebo zimnej sezóny, môže sa účtovať dodatočný príplatok. Ak máte záujem o prenájom celej vily, radi vám vypracujeme cenovú ponuku.",
   AboutPageBanner: "O Nás",
-  AboutPageHeading: "Apartmány čereňovka",
+  AboutPageHeading: "Apartmány Čereňovka",
   AccomodationBanner: "Ubytovanie",
   ActivityPageBanner: "Aktivity",
   GalleryBanner: "Galéria",
@@ -102,45 +102,47 @@ const skLanguage = {
     "Apartmánový komplex pre rodiny a skupiny ľudí pod horou Čereňová.",
   HomePageLocationHeading: "Poloha:",
   HomePageLocationText:
-    "Náš útulný apartmánový komplex sa nachádza v malebnej dedinke Izipovce, ideálny pre milovníkov prírody a pokojného oddychu. Okolie ponúka množstvo možností na turistiku a cyklistiku. Naše moderné apartmány vám poskytnú všetok komfort pre príjemný pobyt. Hostia sa môžu ubytovať sami a užiť si pokojnú dovolenku. Rezervujte si svoj pobyt u nás a tešíme sa na vašu návštevu!",
+    "Náš útulný apartmánový komplex sa nachádza v malebnej dedinke Ižipovce, ideálny pre milovníkov prírody a pokojného oddychu. Okolie ponúka množstvo možností na turistiku a cyklistiku. Naše moderné apartmány Vám poskytnú všetok komfort pre príjemný pobyt. Rezervujte si svoj pobyt u nás a tešíme sa na vašu návštevu!",
   HomePageOccupancyHeading: "Obsadenie:",
   HomePageOccupancyText:
-    "Naše apartmány sú k dispozícii nielen jednotlivo, ale aj ako celý komplex, čo vám umožní zažiť nezabudnuteľné chvíle s rodinou, priateľmi alebo kolegami. Ponúkame vám možnosť prenajať si všetky naše apartmány naraz, čo vám zabezpečí úplné súkromie a pohodlie.",
+    "Naše apartmány sú k dispozícii nielen jednotlivo, ale aj ako celý komplex, čo Vám umožní zažiť nezabudnuteľné chvíle s rodinou, priateľmi alebo kolegami. Ponúkame Vám možnosť prenajať si všetky naše apartmány naraz, čo vám zabezpečí úplné súkromie a pohodlie.",
   HomePageOrganisationHeading: "Organizácia:",
   HomePageOrganisationText:
-    "Náš tím sa vám osobne bude venovať a postará sa, aby ste mali všetko presne podľa vašich predstáv. Môžeme vám pomôcť s plánovaním programu, organizáciou výletov a iných aktivít, ktoré vás zaujímajú. Chceme, aby ste si u nás užili skvelé a bezstarostné chvíle.",
+    "Náš tím sa Vám osobne bude venovať a postará sa, aby ste mali všetko presne podľa vašich predstáv. Môžeme Vám pomôcť s plánovaním programu, organizáciou výletov a iných aktivít, ktoré vás zaujímajú. Chceme, aby ste si u nás užili skvelé a bezstarostné chvíle.",
   HomePageBottomText:
     "Či už plánujete rodinnú oslavu, firemný teambuilding alebo len oddychový pobyt, naše apartmány sú pripravené splniť vaše potreby. Kontaktujte nás a spoločne vytvoríme jedinečný zážitok práve pre vás.",
   HomePageBottomHeading:
-    "Tešíme sa na stretnutie s vami v Apartmány Čereňovka!",
+    "Tešíme sa na stretnutie s vami v Apartmánoch Čereňovka!",
   AboutPageOurMissionHeading: "Naše poslanie:",
   AboutPageOurMissionText:
-    "Naše penzión Apartmány pod Čerenovkou si kládol za cieľ poskytovať hostiteľskú atmosféru a príjemné ubytovanie pre všetkých cestovateľov, ktorí túžia objavovať krásy tejto malebnej oblasti.",
+    "Naše apartmány Čerenovka si kládú za cieľ poskytovať hostiteľskú atmosféru a príjemné ubytovanie pre všetkých hostí, ktorí túžia objavovať krásy tejto malebnej oblasti.",
   AboutPageAboutUsHeading: "O nás:",
   AboutPageAboutUsText:
-    "Sme rodinný podnik s hlbokými koreňmi na Liptove. S láskou k prírode a túžbou ponúknuť jedinečný zážitok našim hosťom sme sa rozhodli vybudovať apartmány, ktoré vám umožnia úplne pohodlný pobyt v tejto nádhernej lokalite.",
+    "Sme rodinný podnik s hlbokými koreňmi na Liptove. S láskou k prírode a túžbou ponúknuť jedinečný zážitok našim hosťom sme sa rozhodli vybudovať apartmány, ktoré Vám umožnia pohodlný a nezabudnuteľný pobyt v tejto nádhernej lokalite.",
   AboutPageourApartmentsHeading: "Naše apartmány:",
   AboutPageourApartmentsText:
-    "Naša výnimočná ponuka apartmánov vznikla vďaka citlivému zlúčeniu tradície s modernými pohodlnými prvkami. Ubytovanie v našich apartmánoch je dokonalou kombináciou autenticity a komfortu, čo vám umožní relaxovať a cítiť sa ako doma.",
+    "Naša výnimočná ponuka apartmánov vznikla vďaka citlivému zlúčeniu tradície s modernými pohodlnými prvkami. Ubytovanie v našich apartmánoch je dokonalou kombináciou autenticity a komfortu, čo Vám umožní relaxovať a cítiť sa ako doma.",
   AboutPageOurVisionHeading: "Naša vízia:",
   AboutPageOurVisionText1:
     "Veríme, že naša práca a úsilie prinesú našim hosťom nezabudnuteľné zážitky a prežitky, ktoré ich budú sprevádzať aj po návrate domov. Chceme byť vašou prvou voľbou pri návšteve Liptova a miestom, kam sa budete radi vraciať.",
   AboutPageOurVisionText2:
-    "Ak hľadáte ideálne miesto pre oddych a spoznávanie krás Liptovu, Apartmány pod Čerenovkou sú pre vás tou správnou voľbou. Tešíme sa na vašu návštevu a príležitosť poskytnúť vám nezabudnuteľný pobyt v našom penzióne.",
+    "Ak hľadáte ideálne miesto pre oddych a spoznávanie krás Liptovu, Apartmány pod Čerenovkou sú pre vás tou správnou voľbou. Tešíme sa na vašu návštevu a príležitosť poskytnúť Vám príjemný pobyt v našom penzióne.",
   AccomodationPageText1:
-    "Vstúpte do sveta, kde elegancia a štýl sa spájajú s pohodlím a útulnosťou. Naša kolekcia apartmánov vám prináša rozmanité možnosti ubytovania, či už sa chystáte na romantickú únikovku pre dvoch, dovolenku s rodinou alebo obchodnú cestu s kolegami. Sme si istí, že nájdete ten pravý apartmán, ktorý splní všetky vaše očakávania.",
+    "Vstúpte do sveta, kde elegancia a štýl sa spájajú s pohodlím a útulnosťou. Naša kolekcia apartmánov Vám prináša rozmanité možnosti ubytovania, či už sa chystáte na romantický výlet vo dvojici, dovolenku s rodinou alebo pracovný pobyt či teambuilding s kolegami. Sme si istí, že si vyberiete z našej pestrej ponuky ten pravý apartmán, ktorý splní všetky Vaše očakávania.",
   AccomodationPageText2:
-    "Každý z našich apartmánov je starostlivo navrhnutý s dôrazom na detaily, aby sme vám mohli poskytnúť príjemný a útulný domov na dobu vášho pobytu. Vychutnajte si moderné vybavenie a komfort, ktorý vám umožní zrelaxovať sa a oddýchnuť si po náročnom dni strávenom objavovaním krás nášho okolia.",
+    "Každý z našich apartmánov je starostlivo navrhnutý s dôrazom na detaily, aby sme Vám mohli poskytnúť príjemný a útulný domov na celú dobu Vášho pobytu. Vychutnajte si moderné vybavenie a komfort, ktorý Vám umožní zrelaxovať sa a oddýchnuť si po náročnom dni strávenom objavovaním krás nášho okolia.",
   AccomodationPageText3:
     "Takže, neváhajte a prehliadnite si našu širokú ponuku apartmánov vyššie. Ak máte akékoľvek otázky alebo potrebujete ďalšie informácie, neváhajte nás kontaktovať. Tešíme sa na to, že vás privítame v jednom z našich apartmánov a poskytneme vám nezabudnuteľný zážitok, na ktorý budete spomínať ešte dlho po vašom odchode.",
   ActivityPageText1:
-    "Apartmány Čereňovka sa nachádzajú v krásnom okolí Liptovského Mikuláša na Slovensku! U nás si môžete vychutnať množstvo zábavy a aktivít, ktoré určite spríjemnia Váš pobyt. Jednou z našich hlavných atrakcií je letná kuchynka, ktorá je súčasťou nášho penziónu. V tejto útulnej letnej kuchynke nájdete veľkú murovanú pec, kde si môžete upiecť chutné jedlá. Okrem toho tu nájdete aj veľký televízor a dostatok miesta na posedenie pre 15 ľudí.",
+    "Apartmány Čereňovka sa nachádzajú v ideálnej lokalite v krásnom okolí Liptovského Mikuláša a v tesnej blízkosti Liptovskej Mary. U nás si môžete vychutnať množstvo zábavy a aktivít, ktoré určite spríjemnia Váš pobyt.",
+  ActivityPageText12:
+    "Náš rodinný penzión sa pýši priestrannou bohato vybavenou spoločenskou miestnosťou, kde sa nachádza veľká murovaná pec, s možnosťou pečenia chutných jedál. Okrem toho tu nájdete veľkú TV, elektická rúru, indukčnú dosku, kávovar, chladničku s mrazničkou a dostatok miesta na posedenie pre cca 20 ľudí.",
   ActivityPageText2:
-    "Pre tých, ktorí sa radi pohybujú, máme množstvo aktivít vonku. Na našom dvore môžete vyskúšať trampolínu a využiť detské ihrisko, ktoré obsahuje šmýkačku a húpačky. Deti si tu rozhodne nájdu svoje miesto na hrátky. Okrem toho máme aj veľký dvor, kde môžete hrať rôzne hry, ako napríklad futbalový tenis, kroket alebo badminton.",
+    "Pre milovníkov vonkajších aktivít ponúkame taktiež pestrú paletu atrakcií na našom priestrannom dvore obkolesenom zeleňou. Deti si tu užijú voľný čas strávený nielen na detskom ihrisku so šmýkačkou a húpačkami, ale aj skákaním na veľkej trampolíne. V prípade nepriaznivého počasia Vám bude k dispozícii letná kuchynka, kryté vonkajšie posedenie a ping-pongový stôl.",
   ActivityPageText3:
-    "Okrem týchto aktivít ponúkame aj možnosť turistiky na neďaleký kopec Čereňová, po ktorom sú naše apartmány pomenované. Z vrcholu tohto kopca môžete obdivovať nádherný výhľad na Liptovskú Maru a Liptovský Mikuláš. Ďalšou možnosťou je navštíviť turistický raj Prosiecka dolina, kde si môžete vychutnať prechádzku po úchvatnej prírode.",
+    "Okrem týchto aktivít ponúkame aj možnosť turistiky na neďaleký kopec Čereňová, po ktorom sú naše apartmány pomenované. Z vrcholu tohto kopca môžete obdivovať nádherný výhľad na Liptovskú Maru a Liptovský Mikuláš. Ďalšou možnosťou je navštíviť turistický raj Prosiecku dolinu a Liptovskú Maru, kde si môžete vychutnať prechádzky po úchvatnej prírode.",
   ActivityPageText4:
-    "Takže, či už si prajete oddýchnuť si pri grilovaní a sledovaní obľúbeného televízneho programu v našej letnej kuchynke, využiť vonkajšie aktivity ako skákanie na trampolíne, hranie na detskom ihrisku, rôzne športové hry na našom dvore, alebo objavovať krásy Čereňovej a Prosieckej doliny, Apartmány Čereňovka sú ideálnym miestom pre zábavu, relaxáciu a turistiku. Tešíme sa na Vašu návštevu!",
+    "Pozývame Vás si oddýchnuť v útulných priestoroch našich apartrmánov a pri spoznávaní krás liptovskej prírody. Apartmány Čereňovka sú ideálnym miestom pre zábavu, relaxáciu a turistiku. Tešíme sa na Vašu návštevu!",
   TopBannerAltBurgerIcon: "Otvoriť menu",
   TopBannerAltPhoneIcon: "Zavolať na číslo",
   TopBannerAltEmailIcon: "Napísať email",
@@ -164,8 +166,8 @@ const skLanguage = {
   ApartmentBlueAlt: "Modrý apartmán",
   ApartmentRedAlt: "Červený apartmán",
   ApartmentGreenAlt: "Zelený apartmán",
-  ApartmentYellowAlt: "Žltý apartmán",
-  ApartmentGreenBigAlt: "Veľký zelený apartmán",
+  ApartmentYellowAlt: "Apartmán Prosečné",
+  ApartmentGreenBigAlt: "Apartmán Čereňová",
   GalleryImgAlt: "Fotka z galérie Apartmány pod Čereňovou",
   ApartmentItemKeyIconAlt:
     "Self checkin začína od 16:00, checkout prebieha do 10:00",
@@ -189,6 +191,17 @@ const skLanguage = {
     "Galéria - Zoznam fotiek z Apartmánov Čereňovka a ich okolia",
   ContactMetaDescription:
     "Kontakt - Kontaktný formulár pre Apartmány Čerenovka s možnosťou objednania pobytu",
+  ActivitiesTableHeading1: "Atrakcie",
+  ActivitiesTableItem1: "Spoločenská miestnosť s TV",
+  ActivitiesTableItem2: "Kuchynka",
+  ActivitiesTableItem3: "Grilovanie",
+  ActivitiesTableItem4: "Ohnisko",
+  ActivitiesTableItem5: "Detské ihrisko",
+  ActivitiesTableItem6: "Trampolína",
+  ActivitiesTableItem7: "Ping-pong",
+  ActivitiesTableHeading2: "Spoplatnené atrakcie",
+  ActivitiesTableItem8: "Elektrické bicykle",
+  ActivitiesTableItem9: "Kaďa",
   test: "test",
 };
 

@@ -50,23 +50,23 @@ export default function AboutPage() {
           <h1 className="h-subsite">{t.AboutPageHeading}</h1>
           <br />
           <section className="main-panel-down">
-            <h3 className="p-subsite">{t.AboutPageOurMissionHeading}</h3>
+            {/*<h3 className="p-subsite">{t.AboutPageOurMissionHeading}</h3>*/}
             <p className="p-subsite">{t.AboutPageOurMissionText}</p>
-          </section>
+            {/*</section>
           <p>&nbsp;</p>
           <section className="main-panel-down">
-            <h3 className="p-subsite">{t.AboutPageAboutUsHeading}</h3>
+            <h3 className="p-subsite">{t.AboutPageAboutUsHeading}</h3>*/}
             <p className="p-subsite">{t.AboutPageAboutUsText}</p>
-          </section>
-          <p>&nbsp;</p>
+            {/*</section>*/}
+            {/*<p>&nbsp;</p>
           <section className="main-panel-down">
             <h3 className="p-subsite">{t.AboutPageourApartmentsHeading}</h3>
             <p className="p-subsite">{t.AboutPageourApartmentsText}</p>
-          </section>
-          <p>&nbsp;</p>
+          </section> */}
+            {/*<p>&nbsp;</p>
           <section className="main-panel-down">
-            <h3 className="p-subsite">{t.AboutPageOurVisionHeading}</h3>
-            <p className="p-subsite">{t.AboutPageOurVisionText1}</p>
+            <h3 className="p-subsite">{t.AboutPageOurVisionHeading}</h3>*/}
+            {/*<p className="p-subsite">{t.AboutPageOurVisionText1}</p>*/}
             <p className="p-subsite">{t.AboutPageOurVisionText2}</p>
           </section>
         </div>
