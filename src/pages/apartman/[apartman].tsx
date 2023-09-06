@@ -12,6 +12,7 @@ import Smoke from "../../assets/icons/smoke.svg";
 import apartments from "../../assets/apartmentData.json";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 import en from "../../locales/en";
 import sk from "../../locales/sk";
@@ -40,6 +41,7 @@ function getPath(color: string) {
 export default function ApartmentSite() {
   const [imageFilenames1, setImageFilenames1] = useState<string[]>([]);
   const router = useRouter();
+  const pathname = usePathname();
   const { locale } = router;
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
 
@@ -84,6 +86,7 @@ export default function ApartmentSite() {
   }
 
   console.log("apartman", apartman);
+  console.log("pathname", pathname);
 
   if (apartman === "blue") {
     bannerKey = t.BannerBlue;
@@ -107,10 +110,7 @@ export default function ApartmentSite() {
           name="description"
           content={t.AccommodationMetaDescription}
         ></meta>
-        <link
-          rel="canonical"
-          href={`https://cerenovka.sk/apartman/${apartman}`}
-        />
+        <link rel="canonical" href={`https://cerenovka.sk${pathname}`} />
       </Head>
       <div className="container">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
