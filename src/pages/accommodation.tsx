@@ -12,7 +12,6 @@ import imgGreen from "../assets/apartmanIcons/green.jpg";
 import imgYellow from "../assets/apartmanIcons/yellow.jpg";
 import imgGreenBig from "../assets/apartmanIcons/greenBig.jpg";
 import LogoPath from "../assets/logo.png";
-import { headers } from "next/headers";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -72,7 +71,6 @@ export default function Accommodation() {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
-  const nonce = headers().get("x-nonce") ?? undefined;
 
   useEffect(() => {
     if (sliderRef.current) {
@@ -137,10 +135,7 @@ export default function Accommodation() {
         <link rel="canonical" href="https://cerenovka.sk/accommodation" />
       </Head>
       <div className="container">
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL"
-          nonce={nonce}
-        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];

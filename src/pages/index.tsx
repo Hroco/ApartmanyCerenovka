@@ -27,7 +27,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Script from "next/script";
-import { headers } from "next/headers";
 
 function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
@@ -105,8 +104,6 @@ export default function Home() {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
-  const nonce = headers().get("x-nonce") ?? undefined;
-
   return (
     <>
       <Head>
@@ -115,10 +112,7 @@ export default function Home() {
         <link rel="canonical" href="https://cerenovka.sk/" />
       </Head>
       <div className="container">
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL"
-          nonce={nonce}
-        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
