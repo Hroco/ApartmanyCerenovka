@@ -102,11 +102,15 @@ export default function ApartmentSite() {
   return (
     <>
       <Head>
-        <title>{t.AccommodationTitle}</title>
+        <title>{t.AccommodationTitle + " - " + bannerKey}</title>
         <meta
           name="description"
           content={t.AccommodationMetaDescription}
         ></meta>
+        <link
+          rel="canonical"
+          href={`https://www.cerenovka.sk/apartman/${apartman}`}
+        />
       </Head>
       <div className="container">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />

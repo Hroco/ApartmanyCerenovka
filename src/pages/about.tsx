@@ -22,6 +22,7 @@ export default function AboutPage() {
       <Head>
         <title>{t.AboutUsTitle}</title>
         <meta name="description" content={t.AboutUsMetaDescription}></meta>
+        <link rel="canonical" href="https://www.cerenovka.sk/about" />
       </Head>
       <div className="container">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
