@@ -30,7 +30,7 @@ export default function Gallery() {
           throw new Error("Failed to fetch image filenames");
         }
         const data = await response.json();
-        // console.log("data", data);
+
         setImageFilenames1(
           data.map((imageName: string) => "/gallery/" + imageName)
         );
