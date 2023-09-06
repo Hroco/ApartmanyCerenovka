@@ -13,12 +13,14 @@ import pl from "../locales/pl";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Script from "next/script";
+import { headers } from "next/headers";
 
 export default function Gallery() {
   const [imageFilenames1, setImageFilenames1] = useState<string[]>([]);
   const router = useRouter();
   const { locale } = router;
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
+  const nonce = headers().get("x-nonce") ?? undefined;
 
   useEffect(() => {
     const fetchImages1 = async () => {
@@ -50,7 +52,10 @@ export default function Gallery() {
         <link rel="canonical" href="https://cerenovka.sk/gallery" />
       </Head>
       <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL"
+          nonce={nonce}
+        />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];

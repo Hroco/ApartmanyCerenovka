@@ -10,6 +10,7 @@ import ImageGallery from "../components/ImageGallery";
 import path from "path";
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
+import { headers } from "next/headers";
 
 import en from "../locales/en";
 import sk from "../locales/sk";
@@ -24,6 +25,7 @@ export default function Activity() {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
+  const nonce = headers().get("x-nonce") ?? undefined;
 
   useEffect(() => {
     const fetchImages1 = async () => {
@@ -99,7 +101,10 @@ export default function Activity() {
         <link rel="canonical" href="https://cerenovka.sk/activity" />
       </Head>
       <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL"
+          nonce={nonce}
+        />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];

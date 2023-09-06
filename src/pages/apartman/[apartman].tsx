@@ -12,6 +12,7 @@ import Smoke from "../../assets/icons/smoke.svg";
 import apartments from "../../assets/apartmentData.json";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import { headers } from "next/headers";
 
 import en from "../../locales/en";
 import sk from "../../locales/sk";
@@ -42,6 +43,7 @@ export default function ApartmentSite() {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
+  const nonce = headers().get("x-nonce") ?? undefined;
 
   console.log("router.query", router.query);
   const { apartman } = router.query;
@@ -113,7 +115,10 @@ export default function ApartmentSite() {
         />
       </Head>
       <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL"
+          nonce={nonce}
+        />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
