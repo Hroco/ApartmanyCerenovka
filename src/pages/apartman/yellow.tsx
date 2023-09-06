@@ -76,10 +76,10 @@ export default function ApartmentSite() {
   return (
     <>
       <Head>
-        <title>{t.AccommodationTitle + " - " + t.BannerYellow}</title>
+        <title>{t.BannerYellow + " - " + t.AboutPageHeading}</title>
         <meta
           name="description"
-          content={t.AccommodationMetaDescription}
+          content={t.BannerYellow + " - " + t.ApartmentYellowDescription}
         ></meta>
         <link rel="canonical" href={`https://cerenovka.sk${pathname}`} />
       </Head>
