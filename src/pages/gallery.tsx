@@ -47,7 +47,7 @@ export default function Gallery() {
       <Head>
         <title>{t.GalleryTitle}</title>
         <meta name="description" content={t.GalleryMetaDescription}></meta>
-        <link rel="canonical" href="https://www.cerenovka.sk/gallery" />
+        <link rel="canonical" href="https://cerenovka.sk/gallery" />
       </Head>
       <div className="container">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />

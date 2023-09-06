@@ -132,7 +132,7 @@ export default function Accommodation() {
           name="description"
           content={t.AccommodationMetaDescription}
         ></meta>
-        <link rel="canonical" href="https://www.cerenovka.sk/accommodation" />
+        <link rel="canonical" href="https://cerenovka.sk/accommodation" />
       </Head>
       <div className="container">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />

@@ -63,7 +63,7 @@ export default function Contact() {
       <Head>
         <title>{t.ContactTitle}</title>
         <meta name="description" content={t.ContactMetaDescription}></meta>
-        <link rel="canonical" href="https://www.cerenovka.sk/contact" />
+        <link rel="canonical" href="https://cerenovka.sk/contact" />
       </Head>
       <div className="container">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />

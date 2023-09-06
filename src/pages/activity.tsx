@@ -96,7 +96,7 @@ export default function Activity() {
       <Head>
         <title>{t.ActivitiesTitle}</title>
         <meta name="description" content={t.ActivitiesMetaDescription}></meta>
-        <link rel="canonical" href="https://www.cerenovka.sk/activity" />
+        <link rel="canonical" href="https://cerenovka.sk/activity" />
       </Head>
       <div className="container">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-FSCHP9Q3SL" />

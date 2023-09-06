@@ -109,7 +109,7 @@ export default function ApartmentSite() {
         ></meta>
         <link
           rel="canonical"
-          href={`https://www.cerenovka.sk/apartman/${apartman}`}
+          href={`https://cerenovka.sk/apartman/${apartman}`}
         />
       </Head>
       <div className="container">
