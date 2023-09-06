@@ -305,6 +305,12 @@ hr {
   width: max-content;
 }
 
+.text-container h1{
+  font-size: 7vw;
+  color: white;
+  text-shadow: 2px 2px 10px #2e2e2e;
+}
+
 .banner-main img{
   width: 100%;
   height: auto;

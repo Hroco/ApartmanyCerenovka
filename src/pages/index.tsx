@@ -126,8 +126,8 @@ export default function Home() {
       <div className="main-panel">
         <HomePageImage />
         <div className="main-panel-inside container">
-          <h1>{t.HomePageHeading}</h1>
-          <h2>{t.HomePageSubHeading}</h2>
+          <h2>{t.HomePageHeading}</h2>
+          <h3>{t.HomePageSubHeading}</h3>
           <p>&nbsp;</p>
           <section className="main-panel-right">
             <Image

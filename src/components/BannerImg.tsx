@@ -20,7 +20,9 @@ export default function BannerImg({ text }: BannerImgProps) {
   return (
     <>
       <div className="banner-main">
-        <div className="text-container">{text}</div>
+        <div className="text-container">
+          <h1>{text}</h1>
+        </div>
         <Image
           src={BannerImgPath}
           alt={t.BannerImgAlt}
