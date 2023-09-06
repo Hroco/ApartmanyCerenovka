@@ -183,6 +183,8 @@ const skLanguage = {
     "Apartmány Čereňovka - ubytovanie v súkromí v obci Ižipovce, v blízkosti Liptovskej Mary, Liptovského Mikuláša.",
   AboutUsMetaDescription:
     "O nás - Strcne informácie o majiteľoch Apartmánov Čereňovka a ich penzióne",
+  AccommodationMetaDescription:
+    "Ubytovanie - Prehľad ponuky Apartmánov Čereňovka a ich vybavenia",
   ActivitiesMetaDescription:
     "Aktivity - Prehľad možných aktivít pre hostí Apartmánov Čereňovka",
   GalleryMetaDescription:
