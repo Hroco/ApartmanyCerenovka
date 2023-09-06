@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/require-await */
 /**
  * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially useful
  * for Docker builds.
@@ -19,6 +20,20 @@ const config = {
     locales: ["sk", "en", "pl"],
     defaultLocale: "sk",
   },
+  async headers() {
+    return [
+        {
+            // Sets security headers for all routes
+            source: '/(.*)',
+            headers: [
+                {
+                  key: 'Strict-Transport-Security',
+                  value: 'max-age=63072000; includeSubDomains; preload'
+                }
+            ],
+        },
+    ];
+},
 };
 
 export default config;
