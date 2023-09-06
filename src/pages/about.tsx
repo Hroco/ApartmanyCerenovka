@@ -48,7 +48,7 @@ export default function AboutPage() {
               loading="lazy"
             />
           </div>
-          <h1 className="h-subsite">{t.AboutPageHeading}</h1>
+          <h2 className="h-subsite">{t.AboutPageHeading}</h2>
           <br />
           <section className="main-panel-down">
             {/*<h3 className="p-subsite">{t.AboutPageOurMissionHeading}</h3>*/}

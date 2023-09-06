@@ -45,15 +45,12 @@ export default function ApartmentSite() {
   const { locale } = router;
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
 
-  console.log("router.query", router.query);
-  const { apartman } = router.query;
-  let bannerKey: string;
+  const apartman = "red";
 
   const data = apartments as ApartmentData;
   const apartmentData = data.apartments[apartman as string];
 
   useEffect(() => {
-    console.log("apartment", apartman);
     const fetchImages1 = async () => {
       try {
         const response = await fetch(
@@ -63,49 +60,23 @@ export default function ApartmentSite() {
           throw new Error("Failed to fetch image filenames");
         }
         const data = await response.json();
-        console.log("data", data);
 
         const dataArray = data.map(
           (imageName: string) => getPath(apartman as string) + imageName
         );
-
-        console.log("dataArray", dataArray);
 
         setImageFilenames1(dataArray);
       } catch (error) {
         console.error(error);
       }
     };
-    if (router.isReady) {
-      fetchImages1();
-    }
-  }, [apartman, router.isReady]);
-
-  if (!router.isReady) {
-    return null;
-  }
-
-  console.log("apartman", apartman);
-  console.log("pathname", pathname);
-
-  if (apartman === "blue") {
-    bannerKey = t.BannerBlue;
-  } else if (apartman === "green") {
-    bannerKey = t.BannerGreen;
-  } else if (apartman === "yellow") {
-    bannerKey = t.BannerYellow;
-  } else if (apartman === "red") {
-    bannerKey = t.BannerRed;
-  } else if (apartman === "greenBig") {
-    bannerKey = t.BannerGreenBig;
-  } else {
-    bannerKey = "UnknownBanner";
-  }
+    fetchImages1();
+  }, []);
 
   return (
     <>
       <Head>
-        <title>{t.AccommodationTitle + " - " + bannerKey}</title>
+        <title>{t.AccommodationTitle + " - " + t.BannerRed}</title>
         <meta
           name="description"
           content={t.AccommodationMetaDescription}
@@ -125,7 +96,7 @@ export default function ApartmentSite() {
         </Script>
       </div>
       <div className="main-panel">
-        <BannerImg text={`${bannerKey}`} />
+        <BannerImg text={`${t.BannerRed}`} />
         <div className="main-panel-inside container">
           <div className="apartman-large-content">
             <div className="apartmentEquipment">
@@ -262,7 +233,7 @@ export default function ApartmentSite() {
                 </div>
               </div>
             </div>
-            <h1>{t.ApartmentSitePricingHeading}</h1>
+            <h2>{t.ApartmentSitePricingHeading}</h2>
             <table className="pricing">
               <tbody>
                 <tr>
