@@ -7,6 +7,7 @@ import NavBar from "../components/NavBar";
 import TopBanner from "../components/TopBanner";
 import { useRouter } from "next/router";
 import previewImage from "../assets/logoRectangle.png";
+// import favicon from "../../public/favicon.ico";
 
 import en from "../locales/en";
 import sk from "../locales/sk";
@@ -20,9 +21,19 @@ const MyApp: AppType = ({ Component, pageProps }) => {
     <>
       <Head>
         <title>{t.RootTitle}</title>
-        <meta name="description" content={t.RootMetaDescription}></meta>
+        <meta name="description" content={t.RootMetaDescription} />
         <meta property="og:image" content={previewImage.src} key="ogimage" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:url" content="https://cerenovka.sk/" />
+        <meta property="og:locale" content="sk_SK" />
+        <meta property="og:site_name" content="Liptov Mara" />
+        <meta property="og:description" content={t.RootMetaDescription} />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={t.RootTitle} />
+        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" href="/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" href="/favicon-192x192.png" sizes="192x192" />
+        <link rel="apple-touch-icon" href="/favicon-180x180.png" />
+        <meta name="msapplication-TileImage" content="/favicon-270x270.png" />
       </Head>
       <header>
         <TopBanner />
