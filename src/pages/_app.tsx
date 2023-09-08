@@ -25,14 +25,33 @@ const MyApp: AppType = ({ Component, pageProps }) => {
         <meta property="og:image" content={previewImage.src} key="ogimage" />
         <meta property="og:url" content="https://cerenovka.sk/" />
         <meta property="og:locale" content="sk_SK" />
-        <meta property="og:site_name" content="Liptov Mara" />
+        <meta property="og:site_name" content={t.AboutPageHeading} />
         <meta property="og:description" content={t.RootMetaDescription} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={t.RootTitle} />
-        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" href="/favicon-96x96.png" sizes="96x96" />
-        <link rel="icon" href="/favicon-192x192.png" sizes="192x192" />
-        <link rel="apple-touch-icon" href="/favicon-180x180.png" />
+        <link
+          rel="icon"
+          href="/favicon-48x48.png"
+          sizes="48x48"
+          type="image/png"
+        />
+        <link
+          rel="icon"
+          href="/favicon-96x96.png"
+          sizes="96x96"
+          type="image/png"
+        />
+        <link
+          rel="icon"
+          href="/favicon-192x192.png"
+          sizes="192x192"
+          type="image/png"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="/favicon-180x180.png"
+          type="image/png"
+        />
         <meta name="msapplication-TileImage" content="/favicon-270x270.png" />
       </Head>
       <header>
