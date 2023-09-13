@@ -29,24 +29,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
         <meta property="og:description" content={t.RootMetaDescription} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={t.RootTitle} />
-        <link
-          rel="icon"
-          href="/favicon-48x48.png"
-          sizes="48x48"
-          type="image/png"
-        />
-        <link
-          rel="icon"
-          href="/favicon-96x96.png"
-          sizes="96x96"
-          type="image/png"
-        />
-        <link
-          rel="icon"
-          href="/favicon-192x192.png"
-          sizes="192x192"
-          type="image/png"
-        />
+        <link rel="icon" type="image/png" href="favicon.ico"></link>
         <link
           rel="apple-touch-icon"
           href="/favicon-180x180.png"
