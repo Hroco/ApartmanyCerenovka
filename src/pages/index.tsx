@@ -158,6 +158,9 @@ export default function Home() {
               height={300}
               loading="lazy"
               placeholder="blur"
+              style={{
+                objectFit: "cover",
+              }}
             />
           </section>
 
