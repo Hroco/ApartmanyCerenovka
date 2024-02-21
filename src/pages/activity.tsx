@@ -127,10 +127,6 @@ export default function Activity() {
                     </tr>
                     <tr>
                       <td>-</td>
-                      <td>{t.ActivitiesTableItem2}</td>
-                    </tr>
-                    <tr>
-                      <td>-</td>
                       <td>{t.ActivitiesTableItem3}</td>
                     </tr>
                     <tr>
@@ -149,6 +145,10 @@ export default function Activity() {
                       <td>-</td>
                       <td>{t.ActivitiesTableItem7}</td>
                     </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ActivitiesTableItem9}</td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -159,10 +159,6 @@ export default function Activity() {
                     <tr>
                       <td>-</td>
                       <td>{t.ActivitiesTableItem8}</td>
-                    </tr>
-                    <tr>
-                      <td>-</td>
-                      <td>{t.ActivitiesTableItem9}</td>
                     </tr>
                   </tbody>
                 </table>

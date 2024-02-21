@@ -12,6 +12,7 @@ import imgRed from "../assets/apartmanIcons/red.jpg";
 import imgGreen from "../assets/apartmanIcons/green.jpg";
 import imgYellow from "../assets/apartmanIcons/yellow.jpg";
 import imgGreenBig from "../assets/apartmanIcons/greenBig.jpg";
+import imgComplet from "../assets/apartmanIcons/complet.jpg";
 import NextSVG from "../assets/icons/next.svg";
 import PrevSVG from "../assets/icons/prev.svg";
 import ApartmanItem from "../components/ApartmanItem";
@@ -258,6 +259,18 @@ export default function Home() {
                 apartmentPath="/apartman/greenBig"
                 apartmentColor="green"
                 alt={t.ApartmentGreenBigAlt}
+              />
+              <ApartmanItem
+                heading={t.ApartmentCompletName}
+                description={t.ApartmentCompletDescription}
+                imgPath={imgComplet}
+                beds={16}
+                extraBeds={7}
+                wifi={true}
+                parking={true}
+                apartmentPath="/apartman/complet"
+                apartmentColor="white"
+                alt={t.ApartmentCompletAlt}
               />
             </Slider>
             <p>&nbsp;</p>

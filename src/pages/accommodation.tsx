@@ -11,6 +11,7 @@ import imgRed from "../assets/apartmanIcons/red.jpg";
 import imgGreen from "../assets/apartmanIcons/green.jpg";
 import imgYellow from "../assets/apartmanIcons/yellow.jpg";
 import imgGreenBig from "../assets/apartmanIcons/greenBig.jpg";
+import imgComplet from "../assets/apartmanIcons/complet.jpg";
 import LogoPath from "../assets/logo.png";
 
 import "slick-carousel/slick/slick.css";
@@ -214,6 +215,18 @@ export default function Accommodation() {
               apartmentPath="/apartman/greenBig"
               apartmentColor="green"
               alt={t.ApartmentGreenBigAlt}
+            />
+            <ApartmanItem
+              heading={t.ApartmentCompletName}
+              description={t.ApartmentCompletDescription}
+              imgPath={imgComplet}
+              beds={16}
+              extraBeds={7}
+              wifi={true}
+              parking={true}
+              apartmentPath="/apartman/complet"
+              apartmentColor="white"
+              alt={t.ApartmentCompletAlt}
             />
           </section>
           <p>&nbsp;</p>

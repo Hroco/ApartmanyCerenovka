@@ -1,45 +1,64 @@
 {
-    "apartments": {
-      "green": {
-        "priceWinter": "90€",
-        "priceEaster": "105€",
-        "priceSummer": "75€",
-        "priceRest": "60€",
-        "priceNewYear": "105€",
-        "size": "50 sqm"
-      },
-      "red": {
-        "priceWinter": "120€",
-        "priceEaster": "140€",
-        "priceSummer": "100€",
-        "priceRest": "80€",
-        "priceNewYear": "140€",
-        "size": "60 sqm"
-      },
-      "blue": {
-        "priceWinter": "60€",
-        "priceEaster": "70€",
-        "priceSummer": "50€",
-        "priceRest": "40€",
-        "priceNewYear": "70€",
-        "size": "45 sqm"
-      },
-      "yellow": {
-        "priceWinter": "270€",
-        "priceEaster": "315€",
-        "priceSummer": "225€",
-        "priceRest": "180€",
-        "priceNewYear": "315€",
-        "size": "55 sqm"
-      },
-      "greenBig": {
-        "priceWinter": "150€",
-        "priceEaster": "175€",
-        "priceSummer": "125€",
-        "priceRest": "100€",
-        "priceNewYear": "175€",
-        "size": "70 sqm"
-      }
+  "apartments": {
+    "green": {
+      "priceWinter": "75€",
+      "priceEaster": "100€",
+      "priceSummer": "70€",
+      "priceRest": "60€",
+      "priceNewYear": "100€",
+      "size": "26m2",
+      "beds": "2",
+      "extraBeds": "1"
+    },
+    "red": {
+      "priceWinter": "110€",
+      "priceEaster": "140€",
+      "priceSummer": "100€",
+      "priceRest": "80€",
+      "priceNewYear": "140€",
+      "size": "35m2",
+      "beds": "2",
+      "extraBeds": "2"
+    },
+    "blue": {
+      "priceWinter": "60€",
+      "priceEaster": "70€",
+      "priceSummer": "50€",
+      "priceRest": "40€",
+      "priceNewYear": "70€",
+      "size": "20m2",
+      "beds": "2",
+      "extraBeds": "0"
+    },
+    "yellow": {
+      "priceWinter": "200€",
+      "priceEaster": "240€",
+      "priceSummer": "200€",
+      "priceRest": "160€",
+      "priceNewYear": "240€",
+      "size": "60m2",
+      "beds": "7",
+      "extraBeds": "2"
+    },
+    "greenBig": {
+      "priceWinter": "130€",
+      "priceEaster": "160€",
+      "priceSummer": "120€",
+      "priceRest": "100€",
+      "priceNewYear": "160€",
+      "size": "38m2",
+      "beds": "4",
+      "extraBeds": "2"
+    },
+    "complet": {
+      "priceWinter": "550€",
+      "priceEaster": "700€",
+      "priceSummer": "500€",
+      "priceRest": "400€",
+      "priceNewYear": "700€",
+      "size": "180m2",
+      "beds": "16",
+      "extraBeds": "7"
     }
   }
-  
+}

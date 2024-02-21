@@ -58,6 +58,10 @@ export default function ApartmentItem({
         borderClassName = "yellow-box";
         buttonClassName = "yellow-button";
         break;
+      case "white":
+        borderClassName = "white-box";
+        buttonClassName = "white-button";
+        break;
       default:
         borderClassName = ""; // Black color for unknown colors
         buttonClassName = "";

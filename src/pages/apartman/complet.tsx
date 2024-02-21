@@ -47,7 +47,7 @@ export default function ApartmentSite() {
   const { locale } = router;
   const t = locale === "sk" ? sk : locale === "en" ? en : pl;
 
-  const apartman = "green";
+  const apartman = "complet";
 
   const data = apartments as ApartmentData;
   const apartmentData = data.apartments[apartman as string];
@@ -78,10 +78,10 @@ export default function ApartmentSite() {
   return (
     <>
       <Head>
-        <title>{t.BannerGreen + " - " + t.AboutPageHeading}</title>
+        <title>{t.BannerComplet + " - " + t.AboutPageHeading}</title>
         <meta
           name="description"
-          content={t.BannerGreen + " - " + t.ApartmentGreenDescription}
+          content={t.BannerComplet + " - " + t.ApartmentCompletDescription}
         ></meta>
         <link rel="canonical" href={`https://cerenovka.sk${pathname}`} />
       </Head>
@@ -98,10 +98,10 @@ export default function ApartmentSite() {
         </Script>
       </div>
       <div className="main-panel">
-        <BannerImg text={`${t.BannerGreen}`} />
+        <BannerImg text={`${t.BannerComplet}`} />
         <div className="main-panel-inside container">
           <div className="apartman-large-content">
-            <h2>{`${t.BannerGreen} ( ${apartmentData?.beds} + ${apartmentData?.extraBeds} )  - ${apartmentData?.size}`}</h2>
+            <h2>{`${t.BannerComplet} ( ${apartmentData?.beds} + ${apartmentData?.extraBeds} )  - ${apartmentData?.size}`}</h2>
             <div className="apartmentEquipment">
               <div>
                 <h3>{t.ApartmentSiteEquipmentBedroomHeading}</h3>
@@ -130,6 +130,14 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentBedroomItem6}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentBedroomItem7}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteKidBed}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -161,6 +169,10 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentKitchenItem6}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentKitchenItem7}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -196,6 +208,10 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentOtherItem7}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentOtherItem8}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -299,7 +315,8 @@ export default function ApartmentSite() {
               </tbody>
             </table>
             <br />
-            <p>{t.ApartmentSitePricingTablePriceInfo2}</p>
+            <h3>{t.CompleteDescription}</h3>
+            <br />
           </div>
           <ImageGallery imageList={imageFilenames1} />
         </div>

@@ -30,6 +30,8 @@ interface ApartmentData {
       priceRest: string;
       priceNewYear: string;
       size: string;
+      beds: string;
+      extraBeds: string;
     }
   >;
 }
@@ -99,6 +101,8 @@ export default function ApartmentSite() {
         <BannerImg text={`${t.BannerBlue}`} />
         <div className="main-panel-inside container">
           <div className="apartman-large-content">
+            <h2>{`${t.BannerBlue} ( ${apartmentData?.beds} + ${t.ApartmentSiteKidBed} )  - ${apartmentData?.size}`}</h2>
+
             <div className="apartmentEquipment">
               <div>
                 <h3>{t.ApartmentSiteEquipmentBedroomHeading}</h3>
