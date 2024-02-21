@@ -30,6 +30,8 @@ interface ApartmentData {
       priceRest: string;
       priceNewYear: string;
       size: string;
+      beds: string;
+      extraBeds: string;
     }
   >;
 }
@@ -99,6 +101,7 @@ export default function ApartmentSite() {
         <BannerImg text={`${t.BannerYellow}`} />
         <div className="main-panel-inside container">
           <div className="apartman-large-content">
+            <h2>{`${t.BannerYellow} ( ${apartmentData?.beds} + ${apartmentData?.extraBeds} )  - ${apartmentData?.size}`}</h2>
             <div className="apartmentEquipment">
               <div>
                 <h3>{t.ApartmentSiteEquipmentBedroomHeading}</h3>
@@ -127,6 +130,10 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentBedroomItem6}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentBedroomItem7}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -158,6 +165,10 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentKitchenItem6}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentKitchenItem7}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -193,6 +204,10 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentOtherItem7}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentOtherItem8}</td>
                     </tr>
                   </tbody>
                 </table>
