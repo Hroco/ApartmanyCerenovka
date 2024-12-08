@@ -102,6 +102,9 @@ export default function ApartmentSite() {
         <div className="main-panel-inside container">
           <div className="apartman-large-content">
             <h2>{`${t.BannerGreenBig} ( ${apartmentData?.beds} + ${apartmentData?.extraBeds} )  - ${apartmentData?.size}`}</h2>
+            <div className="apartman-main-description">
+              <p>{t.ApartmentGreenBigDescription}</p>
+            </div>
             <div className="apartmentEquipment">
               <div>
                 <h3>{t.ApartmentSiteEquipmentBedroomHeading}</h3>

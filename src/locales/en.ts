@@ -36,6 +36,8 @@ const enLanguage = {
   ApartmentYellowName: "Apartment Prosečné",
   ApartmentYellowDescription:
     "Family apartment on the upper floor with a view of Čereňová, suitable for 9 people",
+  ApartmentYellowDescriptionMain:
+    "Family apartment on the upper floor with a view of Čereňová, suitable for 9 people. The apartment includes 2 bedrooms, a living room, a kitchen, and a bathroom.",
   ApartmentGreenBigName: "Apartment Čereňová",
   ApartmentGreenBigDescription:
     "Family apartment on the upper floor, suitable for 5 people",

@@ -809,6 +809,10 @@ th {
   margin: 0;
 }
 
+.apartman-main-description p {
+  font-size: 2rem;
+}
+
 @media only screen and (max-width: 959px) {
   .container {
     max-width: 768px;
@@ -828,6 +832,10 @@ th {
 }
 
 @media only screen and (max-width: 767px) {
+  .apartman-main-description p {
+    font-size: 1.5rem;
+  }
+
   .container {
     max-width: 420px;
   }
