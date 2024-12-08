@@ -113,6 +113,10 @@ export default function ApartmentSite() {
                     </tr>
                     <tr>
                       <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentBedroomItem7}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
                       <td>{t.ApartmentSiteEquipmentBedroomItem2}</td>
                     </tr>
                     <tr>
@@ -130,10 +134,6 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentBedroomItem6}</td>
-                    </tr>
-                    <tr>
-                      <td>-</td>
-                      <td>{t.ApartmentSiteEquipmentBedroomItem7}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -208,6 +208,10 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentOtherItem9}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentOtherItem10}</td>
                     </tr>
                   </tbody>
                 </table>

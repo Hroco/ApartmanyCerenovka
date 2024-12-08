@@ -23,23 +23,24 @@ const skLanguage = {
   HomePageSmallHeading: "Vitajte v Penzióne Čereňovka",
   HomePageText1:
     "Rodinný penzión nachádzajúci sa neďaleko Liptovskej Mary, Aquaparku Tatralandia, Jasnej a iných žiadaných lokalít.",
-  ApartmentBlueName: "Mara",
+  ApartmentBlueName: "Apartmán Mara",
   ApartmentBlueDescription:
     "Apartmán na prízemí, vhodný pre pár alebo rodinu s dieťaťom",
-  ApartmentGreenName: "Dlhá Lúka",
+  ApartmentGreenName: "Apartmán Dlhá Lúka",
   ApartmentGreenDescription:
     "Apartmán na prízemí, vhodný pre pár alebo rodinu s dieťaťom",
-  ApartmentRedName: "Srdiečko",
+  ApartmentRedName: "Apartmán Srdiečko",
   ApartmentRedDescription:
     "Rodinný apartmán na prízemí s výhľadom na Čereňovú, vhodný pre 4 osoby",
-  ApartmentYellowName: "Prosečné",
+  ApartmentYellowName: "Apartmán Prosečné",
   ApartmentYellowDescription:
     "Rodinný apartmán na poschodí s výhľadom na Čereňovú, vhodný pre 9 osôb",
-  ApartmentGreenBigName: "Čereňová",
+  ApartmentGreenBigName: "Apartmán Čereňová",
   ApartmentGreenBigDescription:
     "Rodinný apartmán na poschodí, vhodný pre 5 osôb",
-  ApartmentCompletName: "Čereňovka",
-  ApartmentCompletDescription: "Cela budova, vhodná pre 23 osôb",
+  ApartmentCompletName: "Apartmány Čereňovka",
+  ApartmentCompletSubheading: "(Celý objekt)",
+  ApartmentCompletDescription: "Cela budova, vhodná pre 24 osôb",
   ApartmentItemBeds: "Postele",
   ApartmentItemExtraBeds: "Prístelky",
   ApartmentItemWifi: "Wifi",
@@ -48,6 +49,8 @@ const skLanguage = {
   ApartmentItemYes: "Áno",
   ApartmentItemNo: "Nie",
   ApartmentSiteEquipmentBedroomHeading: "Vybavenie spálne",
+  ApartmentSiteEquipmentBedroomHeading2: "Vybavenie oboch spální",
+  ApartmentSiteEquipmentBedroomHeading3: "Vybavenie spální",
   ApartmentSiteEquipmentBedroomItem1: "1 x manželská posteľ",
   ApartmentSiteEquipmentBedroomItem2: "Obliečky",
   ApartmentSiteEquipmentBedroomItem3: "Tv",
@@ -55,6 +58,10 @@ const skLanguage = {
   ApartmentSiteEquipmentBedroomItem5: "Nočný stolík",
   ApartmentSiteEquipmentBedroomItem6: "Vešiaky na šaty",
   ApartmentSiteEquipmentBedroomItem7: "Rozkladací gauč",
+  ApartmentSiteEquipmentBedroomItem8: "2 x manželská posteľ",
+  ApartmentSiteEquipmentBedroomItem9: "jednolôžko",
+  ApartmentSiteEquipmentBedroomItem10: "6 x manželská posteľ",
+  ApartmentSiteEquipmentBedroomItem11: "prístelka",
   ApartmentSiteEquipmentKitchenHeading: "Vybavenie kuchyne",
   ApartmentSiteEquipmentKitchenItem1: "Keramická varná doska",
   ApartmentSiteEquipmentKitchenItem2: "Chladnička",
@@ -73,6 +80,7 @@ const skLanguage = {
   ApartmentSiteEquipmentOtherItem7: "Uteráky",
   ApartmentSiteEquipmentOtherItem8: "Sušič na vlasy",
   ApartmentSiteEquipmentOtherItem9: "Terasa",
+  ApartmentSiteEquipmentOtherItem10: "Možnosť detskej postieľky",
   ApartmentSiteCheckInOut:
     "Self checkin začína od 16:00, checkout prebieha do 10:00",
   ApartmentSitePets: "Pobyt so zvieratami nie je možný",
@@ -143,13 +151,13 @@ const skLanguage = {
   ActivityPageText1:
     "Apartmány Čereňovka sa nachádzajú v ideálnej lokalite v krásnom okolí Liptovského Mikuláša a v tesnej blízkosti Liptovskej Mary. U nás si môžete vychutnať množstvo zábavy a aktivít, ktoré určite spríjemnia Váš pobyt.",
   ActivityPageText12:
-    "Náš rodinný penzión sa pýši priestrannou bohato vybavenou spoločenskou miestnosťou, kde sa nachádza veľká murovaná pec, s možnosťou pečenia chutných jedál. Okrem toho tu nájdete veľkú TV, elektická rúru, indukčnú dosku, kávovar, chladničku s mrazničkou a dostatok miesta na posedenie pre cca 20 ľudí.",
+    "Náš rodinný penzión sa pýši priestrannou bohato vybavenou spoločenskou miestnosťou, kde sa nachádza veľká murovaná pec, s možnosťou pečenia chutných jedál. Okrem toho tu nájdete veľkú TV, elektrickú rúru, indukčnú dosku, kávovar, chladničku s mrazničkou a dostatok miesta na posedenie pre cca 20 ľudí.",
   ActivityPageText2:
     "Pre milovníkov vonkajších aktivít ponúkame taktiež pestrú paletu atrakcií na našom priestrannom dvore obkolesenom zeleňou. Deti si tu užijú voľný čas strávený nielen na detskom ihrisku so šmýkačkou a húpačkami, ale aj skákaním na veľkej trampolíne. V prípade nepriaznivého počasia Vám bude k dispozícii letná kuchynka, kryté vonkajšie posedenie a ping-pongový stôl.",
   ActivityPageText3:
     "Okrem týchto aktivít ponúkame aj možnosť turistiky na neďaleký kopec Čereňová, po ktorom sú naše apartmány pomenované. Z vrcholu tohto kopca môžete obdivovať nádherný výhľad na Liptovskú Maru a Liptovský Mikuláš. Ďalšou možnosťou je navštíviť turistický raj Prosiecku dolinu a Liptovskú Maru, kde si môžete vychutnať prechádzky po úchvatnej prírode.",
   ActivityPageText4:
-    "Pozývame Vás si oddýchnuť v útulných priestoroch našich apartrmánov a pri spoznávaní krás liptovskej prírody. Apartmány Čereňovka sú ideálnym miestom pre zábavu, relaxáciu a turistiku. Tešíme sa na Vašu návštevu!",
+    "Pozývame Vás si oddýchnuť v útulných priestoroch našich apartmánov a pri spoznávaní krás liptovskej prírody. Apartmány Čereňovka sú ideálnym miestom pre zábavu, relaxáciu a turistiku. Tešíme sa na Vašu návštevu!",
   TopBannerAltBurgerIcon: "Otvoriť menu",
   TopBannerAltPhoneIcon: "Zavolať na číslo",
   TopBannerAltEmailIcon: "Napísať email",

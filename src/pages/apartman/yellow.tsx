@@ -104,20 +104,20 @@ export default function ApartmentSite() {
             <h2>{`${t.BannerYellow} ( ${apartmentData?.beds} + ${apartmentData?.extraBeds} )  - ${apartmentData?.size}`}</h2>
             <div className="apartmentEquipment">
               <div>
-                <h3>{t.ApartmentSiteEquipmentBedroomHeading}</h3>
+                <h3>{t.ApartmentSiteEquipmentBedroomHeading2}</h3>
                 <table>
                   <tbody>
                     <tr>
                       <td>-</td>
-                      <td>{t.ApartmentSiteEquipmentBedroomItem1}</td>
+                      <td>{t.ApartmentSiteEquipmentBedroomItem8}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>3 x {t.ApartmentSiteEquipmentBedroomItem9}</td>
                     </tr>
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentBedroomItem2}</td>
-                    </tr>
-                    <tr>
-                      <td>-</td>
-                      <td>{t.ApartmentSiteEquipmentBedroomItem3}</td>
                     </tr>
                     <tr>
                       <td>-</td>
@@ -130,10 +130,6 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentBedroomItem6}</td>
-                    </tr>
-                    <tr>
-                      <td>-</td>
-                      <td>{t.ApartmentSiteEquipmentBedroomItem7}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -179,7 +175,11 @@ export default function ApartmentSite() {
                   <tbody>
                     <tr>
                       <td>-</td>
-                      <td>{t.ApartmentSiteEquipmentOtherItem1}</td>
+                      <td>{t.ApartmentSiteEquipmentBedroomItem7}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentBedroomItem3}</td>
                     </tr>
                     <tr>
                       <td>-</td>
@@ -208,6 +208,10 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentOtherItem8}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentOtherItem10}</td>
                     </tr>
                   </tbody>
                 </table>
