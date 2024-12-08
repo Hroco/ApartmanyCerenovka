@@ -12,7 +12,8 @@ interface ImageGalleryProps {
 }
 
 export default function ImageGallery({ imageList }: ImageGalleryProps) {
-  console.log(imageList);
+  imageList.sort();
+  console.log("ImageGallery", imageList);
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const router = useRouter();
@@ -35,9 +36,10 @@ export default function ImageGallery({ imageList }: ImageGalleryProps) {
 
   return (
     <div className="main-panel-galery">
-      {imageList.map((src, index) => (
+      {imageList.sort().map((src, index) => (
         <div className="gallery-item" key={src}>
           <Image
+            className="gallery-img"
             src={`${src}`}
             alt={t.GalleryImgAlt}
             width={300}

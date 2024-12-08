@@ -262,6 +262,7 @@ export default function Home() {
               />
               <ApartmanItem
                 heading={t.ApartmentCompletName}
+                subHeading={t.ApartmentCompletSubheading}
                 description={t.ApartmentCompletDescription}
                 imgPath={imgComplet}
                 beds={16}

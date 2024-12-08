@@ -28,7 +28,7 @@
       "priceNewYear": "70€",
       "size": "20m2",
       "beds": "2",
-      "extraBeds": "0"
+      "extraBeds": "1"
     },
     "yellow": {
       "priceWinter": "200€",
@@ -47,7 +47,7 @@
       "priceRest": "100€",
       "priceNewYear": "160€",
       "size": "38m2",
-      "beds": "4",
+      "beds": "3",
       "extraBeds": "2"
     },
     "complet": {
@@ -58,7 +58,7 @@
       "priceNewYear": "700€",
       "size": "180m2",
       "beds": "16",
-      "extraBeds": "7"
+      "extraBeds": "8"
     }
   }
 }

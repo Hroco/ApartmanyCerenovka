@@ -152,17 +152,6 @@ export default function Activity() {
                   </tbody>
                 </table>
               </div>
-              <div>
-                <h3>{t.ActivitiesTableHeading2}</h3>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>-</td>
-                      <td>{t.ActivitiesTableItem8}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
             </div>
             <hr></hr>
             <p className="p-subsite">{t.ActivityPageText12}</p>

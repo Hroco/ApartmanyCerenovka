@@ -259,6 +259,10 @@ ul li a:hover {
   margin: 0px 5px 10px;
 }
 
+.gallery-img {
+  object-fit: cover;
+}
+
 .mainImg {
   position: relative;
 }
@@ -522,6 +526,7 @@ hr {
 
 .apartman-box h2 {
   font-family: "Open Sans";
+  text-align: center;
 }
 
 .apartman-box h3 {
@@ -800,6 +805,14 @@ th {
   margin: 0;
 }
 
+.apartman-top .apartman-top-subheading {
+  margin: 0;
+}
+
+.apartman-main-description p {
+  font-size: 2rem;
+}
+
 @media only screen and (max-width: 959px) {
   .container {
     max-width: 768px;
@@ -819,6 +832,10 @@ th {
 }
 
 @media only screen and (max-width: 767px) {
+  .apartman-main-description p {
+    font-size: 1.5rem;
+  }
+
   .container {
     max-width: 420px;
   }
@@ -1000,6 +1017,7 @@ th {
 
   .apartman-top h2 {
     font-size: 3rem;
+    text-align: center;
   }
 
   .apartman-top h3 {

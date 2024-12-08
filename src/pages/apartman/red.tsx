@@ -102,6 +102,9 @@ export default function ApartmentSite() {
         <div className="main-panel-inside container">
           <div className="apartman-large-content">
             <h2>{`${t.BannerRed} ( ${apartmentData?.beds} + ${apartmentData?.extraBeds} )  - ${apartmentData?.size}`}</h2>
+            <div className="apartman-main-description">
+              <p>{t.ApartmentRedDescription}</p>
+            </div>
             <div className="apartmentEquipment">
               <div>
                 <h3>{t.ApartmentSiteEquipmentBedroomHeading}</h3>
@@ -110,6 +113,10 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentBedroomItem1}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentBedroomItem7}</td>
                     </tr>
                     <tr>
                       <td>-</td>
@@ -130,10 +137,6 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentBedroomItem6}</td>
-                    </tr>
-                    <tr>
-                      <td>-</td>
-                      <td>{t.ApartmentSiteEquipmentBedroomItem7}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -208,6 +211,10 @@ export default function ApartmentSite() {
                     <tr>
                       <td>-</td>
                       <td>{t.ApartmentSiteEquipmentOtherItem9}</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>{t.ApartmentSiteEquipmentOtherItem10}</td>
                     </tr>
                   </tbody>
                 </table>

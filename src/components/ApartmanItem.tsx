@@ -11,6 +11,7 @@ import pl from "../locales/pl";
 
 interface ApartmentItemProps {
   heading: string;
+  subHeading?: string;
   description: string;
   imgPath: any;
   beds: number;
@@ -24,6 +25,7 @@ interface ApartmentItemProps {
 
 export default function ApartmentItem({
   heading,
+  subHeading,
   description,
   imgPath,
   beds,
@@ -79,6 +81,9 @@ export default function ApartmentItem({
         <div className="apartman-main">
           <div className="apartman-top">
             <h2>{heading}</h2>
+            {subHeading && (
+              <h2 className="apartman-top-subheading">{subHeading}</h2>
+            )}
             <Image
               src={imgPath}
               alt={alt}
