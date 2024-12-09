@@ -102,7 +102,7 @@ const skLanguage = {
   ApartmentSitePricingTableMinimum: "Minimálne",
   ApartmentSitePricingTablePriceInfo: "Cena je orientačná",
   ApartmentSitePricingTablePriceInfo2:
-    "Ceny za apartmán za jednu noc sú len orientačné a závisia na rôznych faktoroch, ako je počet nocí, sezóna, počet hostí a vek detí. Ak trvá pobyt menej ako 3 noci počas letnej alebo zimnej sezóny, môže sa účtovať dodatočný príplatok. Ak máte záujem o prenájom celej vily, radi vám vypracujeme cenovú ponuku.",
+    "Ceny za apartmán za jednu noc sú len orientačné a závisia na rôznych faktoroch, ako je počet nocí, sezóna, počet hostí a vek detí. Ak trvá pobyt menej ako 3 noci počas letnej alebo zimnej sezóny, môže sa účtovať dodatočný príplatok. Ak máte záujem o prenájom celej chaty, radi vám vypracujeme cenovú ponuku.",
   AboutPageBanner: "O Nás",
   AboutPageHeading: "Apartmány Čereňovka",
   AccommodationBanner: "Ubytovanie",
