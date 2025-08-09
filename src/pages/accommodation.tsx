@@ -3,7 +3,7 @@
 import React, { useRef, useEffect } from "react";
 import BannerImg from "../components/BannerImg";
 import ApartmanItem from "../components/ApartmanItem";
-import Slider from "react-slick";
+import type Slider from "react-slick";
 import NextSVG from "../assets/icons/next.svg";
 import PrevSVG from "../assets/icons/prev.svg";
 import imgBlue from "../assets/apartmanIcons/blue.jpg";
@@ -11,8 +11,9 @@ import imgRed from "../assets/apartmanIcons/red.jpg";
 import imgGreen from "../assets/apartmanIcons/green.jpg";
 import imgYellow from "../assets/apartmanIcons/yellow.jpg";
 import imgGreenBig from "../assets/apartmanIcons/greenBig.jpg";
+import imgCountryRoom from "../assets/apartmanIcons/countryRoom.jpg";
 import imgComplet from "../assets/apartmanIcons/complet.jpg";
-import LogoPath from "../assets/logo.png";
+//import LogoPath from "../assets/logo.png";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -215,6 +216,18 @@ export default function Accommodation() {
               apartmentPath="/apartman/greenBig"
               apartmentColor="green"
               alt={t.ApartmentGreenBigAlt}
+            />
+            <ApartmanItem
+              heading={t.ApartmentCountryRoomName}
+              description={t.ApartmentCountryRoomDescription}
+              imgPath={imgCountryRoom}
+              beds={5}
+              extraBeds={0}
+              wifi={true}
+              parking={true}
+              apartmentPath="/apartman/countryRoom"
+              apartmentColor="green"
+              alt={t.ApartmentCountryRoomAlt}
             />
             <ApartmanItem
               heading={t.ApartmentCompletName}

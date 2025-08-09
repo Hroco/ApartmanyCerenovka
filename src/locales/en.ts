@@ -12,6 +12,7 @@ const enLanguage = {
   BannerRed: "Little Heart",
   BannerYellow: "Prosečné ",
   BannerGreenBig: "Čereňová",
+  BannerCountryRoom: "Country Room",
   BannerComplet: "Čereňovka Apartments",
   ContactFooterHeading: "Reservations",
   ContactFooterNumber: "0907 371 032",
@@ -41,9 +42,12 @@ const enLanguage = {
   ApartmentGreenBigName: "Apartment Čereňová",
   ApartmentGreenBigDescription:
     "Family apartment on the upper floor, suitable for 5 people",
+  ApartmentCountryRoomName: "Country Room Apartment",
+  ApartmentCountryRoomDescription:
+    "Cozy country-style apartment for 5 people, pets welcome",
   ApartmentCompletName: "Apartments Čereňovka",
   ApartmentCompletSubheading: "(Entire property)",
-  ApartmentCompletDescription: "Entire building, suitable for 24 people",
+  ApartmentCompletDescription: "Entire building, suitable for 29 people",
   ApartmentItemBeds: "Beds",
   ApartmentItemExtraBeds: "Extra Beds",
   ApartmentItemWifi: "Wifi",
@@ -87,6 +91,7 @@ const enLanguage = {
   ApartmentSiteCheckInOut:
     "Self check-in starts from 16:00, checkout is until 10:00",
   ApartmentSitePets: "Pet stays are not allowed",
+  ApartmentSitePetsAllowed: "Pets allowed during stay",
   ApartmentSiteSmoke: "Smoking is not allowed in the apartment premises",
   ApartmentSitePricingHeading: "Pricing",
   ApartmentSitePricingTableHeaderSeason: "Season",
@@ -186,6 +191,7 @@ const enLanguage = {
   ApartmentGreenAlt: "Long Meadow",
   ApartmentYellowAlt: "Prosečné ",
   ApartmentGreenBigAlt: "Čereňová",
+  ApartmentCountryRoomAlt: "Country Room",
   ApartmentCompletAlt: "Čereňovka Apartments",
   GalleryImgAlt: "Image from Čereňovka Apartments Gallery",
   ApartmentItemKeyIconAlt:

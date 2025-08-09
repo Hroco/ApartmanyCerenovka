@@ -12,6 +12,7 @@ import imgRed from "../assets/apartmanIcons/red.jpg";
 import imgGreen from "../assets/apartmanIcons/green.jpg";
 import imgYellow from "../assets/apartmanIcons/yellow.jpg";
 import imgGreenBig from "../assets/apartmanIcons/greenBig.jpg";
+import imgCountryRoom from "../assets/apartmanIcons/countryRoom.jpg";
 import imgComplet from "../assets/apartmanIcons/complet.jpg";
 import NextSVG from "../assets/icons/next.svg";
 import PrevSVG from "../assets/icons/prev.svg";
@@ -259,6 +260,18 @@ export default function Home() {
                 apartmentPath="/apartman/greenBig"
                 apartmentColor="green"
                 alt={t.ApartmentGreenBigAlt}
+              />
+              <ApartmanItem
+                heading={t.ApartmentCountryRoomName}
+                description={t.ApartmentCountryRoomDescription}
+                imgPath={imgCountryRoom}
+                beds={5}
+                extraBeds={0}
+                wifi={true}
+                parking={true}
+                apartmentPath="/apartman/countryRoom"
+                apartmentColor="green"
+                alt={t.ApartmentCountryRoomAlt}
               />
               <ApartmanItem
                 heading={t.ApartmentCompletName}
