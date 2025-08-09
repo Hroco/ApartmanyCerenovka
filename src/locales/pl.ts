@@ -12,6 +12,7 @@ const plLanguage = {
   BannerRed: "Małe Serce",
   BannerYellow: "Prosečné",
   BannerGreenBig: "Čereňová",
+  BannerCountryRoom: "Pokój wiejski",
   BannerComplet: "Apartamenty Čereňovka",
   ContactFooterHeading: "Rezerwacje",
   ContactFooterNumber: "0907 371 032",
@@ -40,9 +41,12 @@ const plLanguage = {
   ApartmentGreenBigName: "Apartament Čereňová",
   ApartmentGreenBigDescription:
     "Rodzinny apartament na piętrze, odpowiedni dla 5 osób",
+  ApartmentCountryRoomName: "Apartament Pokój Wiejski",
+  ApartmentCountryRoomDescription:
+    "Przytulny wiejski apartament dla 5 osób, zwierzęta mile widziane",
   ApartmentCompletName: "Apartamenty Čereňovka",
   ApartmentCompletSubheading: "(Cały obiekt)",
-  ApartmentCompletDescription: "Cały budynek, odpowiedni dla 24 osób",
+  ApartmentCompletDescription: "Cały budynek, odpowiedni dla 29 osób",
   ApartmentItemBeds: "Łóżka",
   ApartmentItemExtraBeds: "Dodatkowe łóżka",
   ApartmentItemWifi: "Wifi",
@@ -86,6 +90,7 @@ const plLanguage = {
   ApartmentSiteCheckInOut:
     "Samodzielne zameldowanie rozpoczyna się o 16:00, wymeldowanie do 10:00",
   ApartmentSitePets: "Zwierzęta nie są dozwolone",
+  ApartmentSitePetsAllowed: "Pobyt ze zwierzętami jest dozwolony",
   ApartmentSiteSmoke: "Palenie jest zabronione na terenie apartamentów",
   ApartmentSitePricingHeading: "Cennik",
   ApartmentSitePricingTableHeaderSeason: "Sezon",
@@ -185,6 +190,7 @@ const plLanguage = {
   ApartmentGreenAlt: "Długa Łąka",
   ApartmentYellowAlt: "Prosečné",
   ApartmentGreenBigAlt: "Čereňová",
+  ApartmentCountryRoomAlt: "Pokój wiejski",
   ApartmentCompletAlt: "Apartamenty Čereňovka",
   GalleryImgAlt: "Obraz z Galerii Apartamentów Čereňovka",
   ApartmentItemKeyIconAlt:

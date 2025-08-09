@@ -12,6 +12,7 @@ const skLanguage = {
   BannerRed: "Srdiečko",
   BannerYellow: "Prosečné",
   BannerGreenBig: "Čereňová",
+  BannerCountryRoom: "Vidiecka izba",
   BannerComplet: "Apartmány Čereňovka",
   ContactFooterHeading: "Rezervovať",
   ContactFooterNumber: "0907 371 032",
@@ -40,9 +41,12 @@ const skLanguage = {
   ApartmentGreenBigName: "Apartmán Čereňová",
   ApartmentGreenBigDescription:
     "Rodinný apartmán na poschodí, vhodný pre 5 osôb",
+  ApartmentCountryRoomName: "Apartmán Vidiecka izba",
+  ApartmentCountryRoomDescription:
+    "Útulný vidiecky apartmán pre 5 osôb, vhodný aj so zvieratami",
   ApartmentCompletName: "Apartmány Čereňovka",
   ApartmentCompletSubheading: "(Celý objekt)",
-  ApartmentCompletDescription: "Cela budova, vhodná pre 24 osôb",
+  ApartmentCompletDescription: "Cela budova, vhodná pre 29 osôb",
   ApartmentItemBeds: "Postele",
   ApartmentItemExtraBeds: "Prístelky",
   ApartmentItemWifi: "Wifi",
@@ -86,6 +90,7 @@ const skLanguage = {
   ApartmentSiteCheckInOut:
     "Self checkin začína od 16:00, checkout prebieha do 10:00",
   ApartmentSitePets: "Pobyt so zvieratami nie je možný",
+  ApartmentSitePetsAllowed: "Pobyt so zvieratami je povolený",
   ApartmentSiteSmoke: "V priestoroch apartmánov nie je povolené fajčiť",
   ApartmentSitePricingHeading: "Cenník",
   ApartmentSitePricingTableHeaderSeason: "Sezóna",
@@ -185,6 +190,7 @@ const skLanguage = {
   ApartmentGreenAlt: "Dlha Lúka",
   ApartmentYellowAlt: "Prosečné",
   ApartmentGreenBigAlt: "Čereňová",
+  ApartmentCountryRoomAlt: "Vidiecka izba",
   ApartmentCompletAlt: "Apartmány Čereňovka",
   GalleryImgAlt: "Fotka z galérie Apartmány pod Čereňovou",
   ApartmentItemKeyIconAlt:

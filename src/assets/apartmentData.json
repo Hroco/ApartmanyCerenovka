@@ -50,6 +50,16 @@
       "beds": "3",
       "extraBeds": "2"
     },
+    "countryRoom": {
+      "priceWinter": "130€",
+      "priceEaster": "160€",
+      "priceSummer": "120€",
+      "priceRest": "100€",
+      "priceNewYear": "160€",
+      "size": "40m2",
+      "beds": "5",
+      "extraBeds": "0"
+    },
     "complet": {
       "priceWinter": "550€",
       "priceEaster": "700€",
