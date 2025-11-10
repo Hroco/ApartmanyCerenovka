@@ -244,7 +244,7 @@ export default function ApartmentSite() {
                   alt={t.ApartmentItemPetIconAlt}
                 />
                 <div className="infoContent">
-                  <p>{t.ApartmentSitePets}</p>
+                  <p>{t.ApartmentSitePetsAllowed}</p>
                 </div>
               </div>
               <div className="apartmentInfoItem">
@@ -271,7 +271,7 @@ export default function ApartmentSite() {
                 </tr>
                 <tr>
                   <td>{t.ApartmentSitePricingTableWinterSeason}</td>
-                  <td>15.12 - 31.03</td>
+                  <td>1.12 - 31.03</td>
                   <td>
                     {apartmentData?.priceWinter}/
                     {t.ApartmentSitePricingTableNight}

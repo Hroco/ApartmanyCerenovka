@@ -251,7 +251,7 @@ export default function ApartmentSite() {
                 </tr>
                 <tr>
                   <td>{t.ApartmentSitePricingTableWinterSeason}</td>
-                  <td>15.12 - 31.03</td>
+                  <td>1.12 - 31.03</td>
                   <td>
                     {apartmentData?.priceWinter}/
                     {t.ApartmentSitePricingTableNight}

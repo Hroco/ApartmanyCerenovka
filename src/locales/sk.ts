@@ -90,7 +90,8 @@ const skLanguage = {
   ApartmentSiteCheckInOut:
     "Self checkin začína od 16:00, checkout prebieha do 10:00",
   ApartmentSitePets: "Pobyt so zvieratami nie je možný",
-  ApartmentSitePetsAllowed: "Pobyt so zvieratami je povolený",
+  ApartmentSitePetsAllowed:
+    "Pobyt so zvieratami je povolený - po schválení majiteľom",
   ApartmentSiteSmoke: "V priestoroch apartmánov nie je povolené fajčiť",
   ApartmentSitePricingHeading: "Cenník",
   ApartmentSitePricingTableHeaderSeason: "Sezóna",
